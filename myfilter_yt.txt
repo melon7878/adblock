@@ -1,0 +1,150 @@
+! Title: My Filter for YouTube
+! Expires: 4 days (update frequency)
+! Homepage: https://github.com/melon7878
+! Version: 20230914
+
+
+! https://www.youtube.com //////
+
+! ホーム上のジャンル選択を非表示
+youtube.com##[page-subtype="home"] #header
+
+! ホーム上の音声検索ボタンを非表示
+youtube.com###voice-search-button
+
+! ショートなど動画以外の枠を非表示
+youtube.com##[page-subtype="home"] ytd-rich-section-renderer
+youtube.com##[page-subtype="subscriptions"] ytd-rich-section-renderer
+
+! 左サイドバーの「ショート」欄を非表示
+youtube.com##+js(json-prune, items.0.guideSectionRenderer.items.1.guideEntryRenderer)
+youtube.com##ytd-guide-entry-renderer > [title="ショート"]
+
+! 左サイドバーの探索と他のサービス
+! どちらか一方だけ非表示にするの場合は/と|を消す 例：has-text(YouTube の他のサービス))
+youtube.com##ytd-guide-section-renderer:has(h3:has-text(/YouTube の他のサービス|探索/))
+! 設定
+youtube.com##ytd-guide-section-renderer:has([title="設定"])
+! 概要
+youtube.com##tp-yt-app-drawer #footer
+
+! チャンネルのメンバーとショート、メンバー限定の欄を非表示
+! メンバー
+youtube.com##[page-subtype="channels"] ytd-recognition-shelf-renderer:upward(ytd-item-section-renderer)
+! ショート
+youtube.com##[page-subtype="channels"] ytd-reel-shelf-renderer:upward(ytd-item-section-renderer)
+! メンバー限定の動画
+youtube.com##[page-subtype="channels"] .badge-style-type-members-only:upward(ytd-item-section-renderer)
+
+! 動画下クリップ、Thanks、オフラインを非表示
+youtube.com##ytd-button-renderer:has([aria-label="クリップ"])
+youtube.com##ytd-button-renderer:has([aria-label="Thanks"])
+youtube.com##ytd-download-button-renderer
+
+! 動画オーバーレイ 前へ次へを非表示
+youtube.com##.ytp-prev-button[data-title-no-tooltip="前へ"]
+!youtube.com##.ytp-next-button[data-title-no-tooltip="次へ"]
+! 動画オーバーレイ 字幕使えないときは非表示
+youtube.com##.ytp-subtitles-button[data-title-no-tooltip="字幕を利用できません"]
+! 動画オーバーレイ ミニプレイヤーを非表示
+youtube.com##.ytp-button.ytp-miniplayer-button
+
+! Youtube新UIを改善
+! タイトルのフォントサイズを小さく
+youtube.com###title .ytd-watch-metadata:style(font-weight: 400;font-size: 1.8rem;)
+! 概要欄の再生回数と投稿日時を薄く
+youtube.com###info.ytd-watch-metadata:style(color: var(--yt-spec-text-secondary)!important)
+! 概要欄の「もっと見る」と「一部を表示」を薄く
+youtube.com##tp-yt-paper-button#expand:style(color: var(--yt-spec-text-secondary)!important;font-size: 1.3rem!important)
+youtube.com##tp-yt-paper-button#collapse:style(color: var(--yt-spec-text-secondary)!important;font-size: 1.3rem!important)
+
+! 動画下の警告を非表示
+youtube.com###clarify-box
+
+! 概要欄の音楽情報と文字起こしを非表示
+! 音楽情報
+youtube.com##ytd-text-inline-expander > [slot="extra-content"]:has(ytd-video-description-music-section-renderer)
+! 文字起こし
+youtube.com##ytd-text-inline-expander > [slot="extra-content"]:has(ytd-structured-description-content-renderer)
+
+! 動画下のゲームなどの情報とグッズ欄を非表示
+! ゲーム
+youtube.com##ytd-metadata-row-container-renderer
+! グッズ
+youtube.com##ytd-merch-shelf-renderer
+
+! 動画下とチャンネル画面の「メンバーになる」を非表示
+youtube.com###sponsor-button
+
+! 動画終了前のおすすめ動画を非表示
+youtube.com##.ytp-ce-element
+
+! 検索結果の「他の人はこちらも視聴しています」や「ショート」を非表示．一部表示させたい場合は ":not(ytd-video-renderer)" のカッコ内に表示させたいものを入れます。再生リスト "ytd-radio-renderer"、映画 "ytd-movie-renderer"、チャンネル "ytd-channel-renderer"
+youtube.com##ytd-search ytd-item-section-renderer>#contents>:not(ytd-video-renderer,ytd-radio-renderer,ytd-channel-renderer),ytd-secondary-search-container-renderer
+
+! 動画マウスオーバー時の「キューに追加」を非表示
+youtube.com##ytd-thumbnail-overlay-toggle-button-renderer[aria-label="キューに追加"]
+
+! 動画タイトル右?の「キューに追加」「報告」「オフライン」を非表示
+youtube.com##ytd-menu-service-item-renderer:has-text(/キューに追加|報告/)
+youtube.com##ytd-menu-service-item-download-renderer:has-text(オフライン)
+
+! ミックスリストを非表示
+! ホームのミックスリスト
+youtube.com##[page-subtype="home"] #video-title-link[title*="ミックス"][href$="start_radio=1"]:upward(ytd-rich-item-renderer)
+! 動画右のミックスリスト
+youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-radio-renderer
+! youtube musicのプレイリスト
+youtube.com##ytd-compact-playlist-renderer
+
+! ショートを非表示
+! ホーム
+youtube.com##[page-subtype="home"] #video-title-link:has-text(/#short/i):upward(ytd-rich-item-renderer)
+! 動画右
+youtube.com##ytd-watch-next-secondary-results-renderer [href^="/shorts/"]:upward(ytd-compact-video-renderer)
+youtube.com##ytd-watch-next-secondary-results-renderer ytd-reel-shelf-renderer
+! 登録チャンネル
+youtube.com##[page-subtype="subscriptions"] [href^="/shorts/"]:upward(ytd-grid-video-renderer)
+! 検索結果
+youtube.com##ytd-search [href^="/shorts/"]:upward(ytd-video-renderer)
+
+! 見たくない動画をワード指定して非表示．「|Youtube/i))」このように/の後に「i」をつけると英語の大文字小文字を区別しなくなります。
+! ホーム
+youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(#video-title-link:has-text(/不倫|浮気|交際/))
+! 登録チャンネル
+youtube.com##[page-subtype="subscriptions"] ytd-grid-video-renderer:has(#video-title:has-text(/不倫|浮気|交際/))
+! 動画右
+youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(#video-title:has-text(/不倫|浮気|交際/))
+! 検索結果
+youtube.com##ytd-search ytd-video-renderer:has(#video-title:has-text(/不倫|浮気|交際/))
+! チャンネル名で動画を非表示
+! ホーム
+youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(ytd-channel-name:has-text(/不倫|浮気|交際/))
+! 登録チャンネル
+youtube.com##[page-subtype="subscriptions"] ytd-grid-video-renderer:has(ytd-channel-name:has-text(/不倫|浮気|交際/))
+! 動画右
+youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(ytd-channel-name:has-text(/不倫|浮気|交際/))
+! 検索結果
+youtube.com##ytd-search ytd-video-renderer:has(ytd-channel-name:has-text(/不倫|浮気|交際/))
+
+! コメントをワード指定して非表示
+youtube.com##ytd-comment-renderer:has-text(/プライベートAV|AVガール|動画見たら1万|学校でいじめられてます/)
+! 上のフィルタは非表示にしたコメントに返信があると「件の返信」だけ表示されたままになります。そこで大元のコメントに指定したワードがあると、返信も含めて非表示になるフィルタです。返信のワードには反応しません。
+youtube.com###comment:has-text(/不倫|ハフポスト|音楽/i):upward(ytd-comment-thread-renderer)
+
+! チャット欄の絵文字を非表示
+www.youtube.com###picker-buttons
+www.youtube.com###reaction-control-panel
+
+! YouTubeのホーム広告のスペースを削除する方法
+! 行内の他のビデオを拡大してその行を埋めるやり方
+! ショート動画は削除されない
+! 表示動画サムネイル数は増えない
+! https://kdroidwin.hatenablog.com/entry/2023/09/07/172430
+! youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row:style(--ytd-rich-grid-items-per-row: 1 !important;)
+! youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row>#contents, ytd-browse[page-subtype="home"] ytd-rich-grid-row ytd-rich-grid-media:style(max-width: unset !important;)
+
+
+! フルスクリーンの真ん中下の「スクロールして詳細を表示」を非表示
+www.youtube.com##.ytp-fullerscreen-edu-chevron
+
