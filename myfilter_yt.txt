@@ -1,6 +1,7 @@
 ! Title: My Filter for YouTube
 ! Expires: 4 days (update frequency)
-! Homepage: https://github.com/melon7878
+! Homepage: https://github.com/melon7878/adblock
+
 ! Version: 20230914
 
 
