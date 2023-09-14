@@ -1,4 +1,4 @@
-! Title: My Filter for YouTube
+ï»¿! Title: My Filter for YouTube
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
 ! Version: 20230914
@@ -6,145 +6,145 @@
 
 ! https://www.youtube.com //////
 
-! ƒz[ƒ€ã‚ÌƒWƒƒƒ“ƒ‹‘I‘ğ‚ğ”ñ•\¦
+! ãƒ›ãƒ¼ãƒ ä¸Šã®ã‚¸ãƒ£ãƒ³ãƒ«é¸æŠã‚’éè¡¨ç¤º
 youtube.com##[page-subtype="home"] #header
 
-! ƒz[ƒ€ã‚Ì‰¹ºŒŸõƒ{ƒ^ƒ“‚ğ”ñ•\¦
+! ãƒ›ãƒ¼ãƒ ä¸Šã®éŸ³å£°æ¤œç´¢ãƒœã‚¿ãƒ³ã‚’éè¡¨ç¤º
 youtube.com###voice-search-button
 
-! ƒVƒ‡[ƒg‚È‚Ç“®‰æˆÈŠO‚Ì˜g‚ğ”ñ•\¦
+! ã‚·ãƒ§ãƒ¼ãƒˆãªã©å‹•ç”»ä»¥å¤–ã®æ ã‚’éè¡¨ç¤º
 youtube.com##[page-subtype="home"] ytd-rich-section-renderer
 youtube.com##[page-subtype="subscriptions"] ytd-rich-section-renderer
 
-! ¶ƒTƒCƒhƒo[‚ÌuƒVƒ‡[ƒgv—“‚ğ”ñ•\¦
+! å·¦ã‚µã‚¤ãƒ‰ãƒãƒ¼ã®ã€Œã‚·ãƒ§ãƒ¼ãƒˆã€æ¬„ã‚’éè¡¨ç¤º
 youtube.com##+js(json-prune, items.0.guideSectionRenderer.items.1.guideEntryRenderer)
-youtube.com##ytd-guide-entry-renderer > [title="ƒVƒ‡[ƒg"]
+youtube.com##ytd-guide-entry-renderer > [title="ã‚·ãƒ§ãƒ¼ãƒˆ"]
 
-! ¶ƒTƒCƒhƒo[‚Ì’Tõ‚Æ‘¼‚ÌƒT[ƒrƒX
-! ‚Ç‚¿‚ç‚©ˆê•û‚¾‚¯”ñ•\¦‚É‚·‚é‚Ìê‡‚Í/‚Æ|‚ğÁ‚· —áFhas-text(YouTube ‚Ì‘¼‚ÌƒT[ƒrƒX))
-youtube.com##ytd-guide-section-renderer:has(h3:has-text(/YouTube ‚Ì‘¼‚ÌƒT[ƒrƒX|’Tõ/))
-! İ’è
-youtube.com##ytd-guide-section-renderer:has([title="İ’è"])
-! ŠT—v
+! å·¦ã‚µã‚¤ãƒ‰ãƒãƒ¼ã®æ¢ç´¢ã¨ä»–ã®ã‚µãƒ¼ãƒ“ã‚¹
+! ã©ã¡ã‚‰ã‹ä¸€æ–¹ã ã‘éè¡¨ç¤ºã«ã™ã‚‹ã®å ´åˆã¯/ã¨|ã‚’æ¶ˆã™ ä¾‹ï¼šhas-text(YouTube ã®ä»–ã®ã‚µãƒ¼ãƒ“ã‚¹))
+youtube.com##ytd-guide-section-renderer:has(h3:has-text(/YouTube ã®ä»–ã®ã‚µãƒ¼ãƒ“ã‚¹|æ¢ç´¢/))
+! è¨­å®š
+youtube.com##ytd-guide-section-renderer:has([title="è¨­å®š"])
+! æ¦‚è¦
 youtube.com##tp-yt-app-drawer #footer
 
-! ƒ`ƒƒƒ“ƒlƒ‹‚Ìƒƒ“ƒo[‚ÆƒVƒ‡[ƒgAƒƒ“ƒo[ŒÀ’è‚Ì—“‚ğ”ñ•\¦
-! ƒƒ“ƒo[
+! ãƒãƒ£ãƒ³ãƒãƒ«ã®ãƒ¡ãƒ³ãƒãƒ¼ã¨ã‚·ãƒ§ãƒ¼ãƒˆã€ãƒ¡ãƒ³ãƒãƒ¼é™å®šã®æ¬„ã‚’éè¡¨ç¤º
+! ãƒ¡ãƒ³ãƒãƒ¼
 youtube.com##[page-subtype="channels"] ytd-recognition-shelf-renderer:upward(ytd-item-section-renderer)
-! ƒVƒ‡[ƒg
+! ã‚·ãƒ§ãƒ¼ãƒˆ
 youtube.com##[page-subtype="channels"] ytd-reel-shelf-renderer:upward(ytd-item-section-renderer)
-! ƒƒ“ƒo[ŒÀ’è‚Ì“®‰æ
+! ãƒ¡ãƒ³ãƒãƒ¼é™å®šã®å‹•ç”»
 youtube.com##[page-subtype="channels"] .badge-style-type-members-only:upward(ytd-item-section-renderer)
 
-! “®‰æ‰ºƒNƒŠƒbƒvAThanksAƒIƒtƒ‰ƒCƒ“‚ğ”ñ•\¦
-youtube.com##ytd-button-renderer:has([aria-label="ƒNƒŠƒbƒv"])
+! å‹•ç”»ä¸‹ã‚¯ãƒªãƒƒãƒ—ã€Thanksã€ã‚ªãƒ•ãƒ©ã‚¤ãƒ³ã‚’éè¡¨ç¤º
+youtube.com##ytd-button-renderer:has([aria-label="ã‚¯ãƒªãƒƒãƒ—"])
 youtube.com##ytd-button-renderer:has([aria-label="Thanks"])
 youtube.com##ytd-download-button-renderer
 
-! “®‰æƒI[ƒo[ƒŒƒC ‘O‚ÖŸ‚Ö‚ğ”ñ•\¦
-youtube.com##.ytp-prev-button[data-title-no-tooltip="‘O‚Ö"]
-!youtube.com##.ytp-next-button[data-title-no-tooltip="Ÿ‚Ö"]
-! “®‰æƒI[ƒo[ƒŒƒC š–‹g‚¦‚È‚¢‚Æ‚«‚Í”ñ•\¦
-youtube.com##.ytp-subtitles-button[data-title-no-tooltip="š–‹‚ğ—˜—p‚Å‚«‚Ü‚¹‚ñ"]
-! “®‰æƒI[ƒo[ƒŒƒC ƒ~ƒjƒvƒŒƒCƒ„[‚ğ”ñ•\¦
+! å‹•ç”»ã‚ªãƒ¼ãƒãƒ¼ãƒ¬ã‚¤ å‰ã¸æ¬¡ã¸ã‚’éè¡¨ç¤º
+youtube.com##.ytp-prev-button[data-title-no-tooltip="å‰ã¸"]
+!youtube.com##.ytp-next-button[data-title-no-tooltip="æ¬¡ã¸"]
+! å‹•ç”»ã‚ªãƒ¼ãƒãƒ¼ãƒ¬ã‚¤ å­—å¹•ä½¿ãˆãªã„ã¨ãã¯éè¡¨ç¤º
+youtube.com##.ytp-subtitles-button[data-title-no-tooltip="å­—å¹•ã‚’åˆ©ç”¨ã§ãã¾ã›ã‚“"]
+! å‹•ç”»ã‚ªãƒ¼ãƒãƒ¼ãƒ¬ã‚¤ ãƒŸãƒ‹ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã‚’éè¡¨ç¤º
 youtube.com##.ytp-button.ytp-miniplayer-button
 
-! YoutubeVUI‚ğ‰ü‘P
-! ƒ^ƒCƒgƒ‹‚ÌƒtƒHƒ“ƒgƒTƒCƒY‚ğ¬‚³‚­
+! Youtubeæ–°UIã‚’æ”¹å–„
+! ã‚¿ã‚¤ãƒˆãƒ«ã®ãƒ•ã‚©ãƒ³ãƒˆã‚µã‚¤ã‚ºã‚’å°ã•ã
 youtube.com###title .ytd-watch-metadata:style(font-weight: 400;font-size: 1.8rem;)
-! ŠT—v—“‚ÌÄ¶‰ñ”‚Æ“Še“ú‚ğ”–‚­
+! æ¦‚è¦æ¬„ã®å†ç”Ÿå›æ•°ã¨æŠ•ç¨¿æ—¥æ™‚ã‚’è–„ã
 youtube.com###info.ytd-watch-metadata:style(color: var(--yt-spec-text-secondary)!important)
-! ŠT—v—“‚Ìu‚à‚Á‚ÆŒ©‚év‚Æuˆê•”‚ğ•\¦v‚ğ”–‚­
+! æ¦‚è¦æ¬„ã®ã€Œã‚‚ã£ã¨è¦‹ã‚‹ã€ã¨ã€Œä¸€éƒ¨ã‚’è¡¨ç¤ºã€ã‚’è–„ã
 youtube.com##tp-yt-paper-button#expand:style(color: var(--yt-spec-text-secondary)!important;font-size: 1.3rem!important)
 youtube.com##tp-yt-paper-button#collapse:style(color: var(--yt-spec-text-secondary)!important;font-size: 1.3rem!important)
 
-! “®‰æ‰º‚ÌŒx‚ğ”ñ•\¦
+! å‹•ç”»ä¸‹ã®è­¦å‘Šã‚’éè¡¨ç¤º
 youtube.com###clarify-box
 
-! ŠT—v—“‚Ì‰¹Šyî•ñ‚Æ•¶š‹N‚±‚µ‚ğ”ñ•\¦
-! ‰¹Šyî•ñ
+! æ¦‚è¦æ¬„ã®éŸ³æ¥½æƒ…å ±ã¨æ–‡å­—èµ·ã“ã—ã‚’éè¡¨ç¤º
+! éŸ³æ¥½æƒ…å ±
 youtube.com##ytd-text-inline-expander > [slot="extra-content"]:has(ytd-video-description-music-section-renderer)
-! •¶š‹N‚±‚µ
+! æ–‡å­—èµ·ã“ã—
 youtube.com##ytd-text-inline-expander > [slot="extra-content"]:has(ytd-structured-description-content-renderer)
 
-! “®‰æ‰º‚ÌƒQ[ƒ€‚È‚Ç‚Ìî•ñ‚ÆƒOƒbƒY—“‚ğ”ñ•\¦
-! ƒQ[ƒ€
+! å‹•ç”»ä¸‹ã®ã‚²ãƒ¼ãƒ ãªã©ã®æƒ…å ±ã¨ã‚°ãƒƒã‚ºæ¬„ã‚’éè¡¨ç¤º
+! ã‚²ãƒ¼ãƒ 
 youtube.com##ytd-metadata-row-container-renderer
-! ƒOƒbƒY
+! ã‚°ãƒƒã‚º
 youtube.com##ytd-merch-shelf-renderer
 
-! “®‰æ‰º‚Æƒ`ƒƒƒ“ƒlƒ‹‰æ–Ê‚Ìuƒƒ“ƒo[‚É‚È‚év‚ğ”ñ•\¦
+! å‹•ç”»ä¸‹ã¨ãƒãƒ£ãƒ³ãƒãƒ«ç”»é¢ã®ã€Œãƒ¡ãƒ³ãƒãƒ¼ã«ãªã‚‹ã€ã‚’éè¡¨ç¤º
 youtube.com###sponsor-button
 
-! “®‰æI—¹‘O‚Ì‚¨‚·‚·‚ß“®‰æ‚ğ”ñ•\¦
+! å‹•ç”»çµ‚äº†å‰ã®ãŠã™ã™ã‚å‹•ç”»ã‚’éè¡¨ç¤º
 youtube.com##.ytp-ce-element
 
-! ŒŸõŒ‹‰Ê‚Ìu‘¼‚Ìl‚Í‚±‚¿‚ç‚à‹’®‚µ‚Ä‚¢‚Ü‚·v‚âuƒVƒ‡[ƒgv‚ğ”ñ•\¦Dˆê•”•\¦‚³‚¹‚½‚¢ê‡‚Í ":not(ytd-video-renderer)" ‚ÌƒJƒbƒR“à‚É•\¦‚³‚¹‚½‚¢‚à‚Ì‚ğ“ü‚ê‚Ü‚·BÄ¶ƒŠƒXƒg "ytd-radio-renderer"A‰f‰æ "ytd-movie-renderer"Aƒ`ƒƒƒ“ƒlƒ‹ "ytd-channel-renderer"
+! æ¤œç´¢çµæœã®ã€Œä»–ã®äººã¯ã“ã¡ã‚‰ã‚‚è¦–è´ã—ã¦ã„ã¾ã™ã€ã‚„ã€Œã‚·ãƒ§ãƒ¼ãƒˆã€ã‚’éè¡¨ç¤ºï¼ä¸€éƒ¨è¡¨ç¤ºã•ã›ãŸã„å ´åˆã¯ ":not(ytd-video-renderer)" ã®ã‚«ãƒƒã‚³å†…ã«è¡¨ç¤ºã•ã›ãŸã„ã‚‚ã®ã‚’å…¥ã‚Œã¾ã™ã€‚å†ç”Ÿãƒªã‚¹ãƒˆ "ytd-radio-renderer"ã€æ˜ ç”» "ytd-movie-renderer"ã€ãƒãƒ£ãƒ³ãƒãƒ« "ytd-channel-renderer"
 youtube.com##ytd-search ytd-item-section-renderer>#contents>:not(ytd-video-renderer,ytd-radio-renderer,ytd-channel-renderer),ytd-secondary-search-container-renderer
 
-! “®‰æƒ}ƒEƒXƒI[ƒo[‚ÌuƒLƒ…[‚É’Ç‰Áv‚ğ”ñ•\¦
-youtube.com##ytd-thumbnail-overlay-toggle-button-renderer[aria-label="ƒLƒ…[‚É’Ç‰Á"]
+! å‹•ç”»ãƒã‚¦ã‚¹ã‚ªãƒ¼ãƒãƒ¼æ™‚ã®ã€Œã‚­ãƒ¥ãƒ¼ã«è¿½åŠ ã€ã‚’éè¡¨ç¤º
+youtube.com##ytd-thumbnail-overlay-toggle-button-renderer[aria-label="ã‚­ãƒ¥ãƒ¼ã«è¿½åŠ "]
 
-! “®‰æƒ^ƒCƒgƒ‹‰E?‚ÌuƒLƒ…[‚É’Ç‰Ávu•ñvuƒIƒtƒ‰ƒCƒ“v‚ğ”ñ•\¦
-youtube.com##ytd-menu-service-item-renderer:has-text(/ƒLƒ…[‚É’Ç‰Á|•ñ/)
-youtube.com##ytd-menu-service-item-download-renderer:has-text(ƒIƒtƒ‰ƒCƒ“)
+! å‹•ç”»ã‚¿ã‚¤ãƒˆãƒ«å³?ã®ã€Œã‚­ãƒ¥ãƒ¼ã«è¿½åŠ ã€ã€Œå ±å‘Šã€ã€Œã‚ªãƒ•ãƒ©ã‚¤ãƒ³ã€ã‚’éè¡¨ç¤º
+youtube.com##ytd-menu-service-item-renderer:has-text(/ã‚­ãƒ¥ãƒ¼ã«è¿½åŠ |å ±å‘Š/)
+youtube.com##ytd-menu-service-item-download-renderer:has-text(ã‚ªãƒ•ãƒ©ã‚¤ãƒ³)
 
-! ƒ~ƒbƒNƒXƒŠƒXƒg‚ğ”ñ•\¦
-! ƒz[ƒ€‚Ìƒ~ƒbƒNƒXƒŠƒXƒg
-youtube.com##[page-subtype="home"] #video-title-link[title*="ƒ~ƒbƒNƒX"][href$="start_radio=1"]:upward(ytd-rich-item-renderer)
-! “®‰æ‰E‚Ìƒ~ƒbƒNƒXƒŠƒXƒg
+! ãƒŸãƒƒã‚¯ã‚¹ãƒªã‚¹ãƒˆã‚’éè¡¨ç¤º
+! ãƒ›ãƒ¼ãƒ ã®ãƒŸãƒƒã‚¯ã‚¹ãƒªã‚¹ãƒˆ
+youtube.com##[page-subtype="home"] #video-title-link[title*="ãƒŸãƒƒã‚¯ã‚¹"][href$="start_radio=1"]:upward(ytd-rich-item-renderer)
+! å‹•ç”»å³ã®ãƒŸãƒƒã‚¯ã‚¹ãƒªã‚¹ãƒˆ
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-radio-renderer
-! youtube music‚ÌƒvƒŒƒCƒŠƒXƒg
+! youtube musicã®ãƒ—ãƒ¬ã‚¤ãƒªã‚¹ãƒˆ
 youtube.com##ytd-compact-playlist-renderer
 
-! ƒVƒ‡[ƒg‚ğ”ñ•\¦
-! ƒz[ƒ€
+! ã‚·ãƒ§ãƒ¼ãƒˆã‚’éè¡¨ç¤º
+! ãƒ›ãƒ¼ãƒ 
 youtube.com##[page-subtype="home"] #video-title-link:has-text(/#short/i):upward(ytd-rich-item-renderer)
-! “®‰æ‰E
+! å‹•ç”»å³
 youtube.com##ytd-watch-next-secondary-results-renderer [href^="/shorts/"]:upward(ytd-compact-video-renderer)
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-reel-shelf-renderer
-! “o˜^ƒ`ƒƒƒ“ƒlƒ‹
+! ç™»éŒ²ãƒãƒ£ãƒ³ãƒãƒ«
 youtube.com##[page-subtype="subscriptions"] [href^="/shorts/"]:upward(ytd-grid-video-renderer)
-! ŒŸõŒ‹‰Ê
+! æ¤œç´¢çµæœ
 youtube.com##ytd-search [href^="/shorts/"]:upward(ytd-video-renderer)
 
-! Œ©‚½‚­‚È‚¢“®‰æ‚ğƒ[ƒhw’è‚µ‚Ä”ñ•\¦Du|Youtube/i))v‚±‚Ì‚æ‚¤‚É/‚ÌŒã‚Éuiv‚ğ‚Â‚¯‚é‚Æ‰pŒê‚Ì‘å•¶š¬•¶š‚ğ‹æ•Ê‚µ‚È‚­‚È‚è‚Ü‚·B
-! ƒz[ƒ€
-youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(#video-title-link:has-text(/•s—Ï|•‚‹C|ŒğÛ/))
-! “o˜^ƒ`ƒƒƒ“ƒlƒ‹
-youtube.com##[page-subtype="subscriptions"] ytd-grid-video-renderer:has(#video-title:has-text(/•s—Ï|•‚‹C|ŒğÛ/))
-! “®‰æ‰E
-youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(#video-title:has-text(/•s—Ï|•‚‹C|ŒğÛ/))
-! ŒŸõŒ‹‰Ê
-youtube.com##ytd-search ytd-video-renderer:has(#video-title:has-text(/•s—Ï|•‚‹C|ŒğÛ/))
-! ƒ`ƒƒƒ“ƒlƒ‹–¼‚Å“®‰æ‚ğ”ñ•\¦
-! ƒz[ƒ€
-youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(ytd-channel-name:has-text(/•s—Ï|•‚‹C|ŒğÛ/))
-! “o˜^ƒ`ƒƒƒ“ƒlƒ‹
-youtube.com##[page-subtype="subscriptions"] ytd-grid-video-renderer:has(ytd-channel-name:has-text(/•s—Ï|•‚‹C|ŒğÛ/))
-! “®‰æ‰E
-youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(ytd-channel-name:has-text(/•s—Ï|•‚‹C|ŒğÛ/))
-! ŒŸõŒ‹‰Ê
-youtube.com##ytd-search ytd-video-renderer:has(ytd-channel-name:has-text(/•s—Ï|•‚‹C|ŒğÛ/))
+! è¦‹ãŸããªã„å‹•ç”»ã‚’ãƒ¯ãƒ¼ãƒ‰æŒ‡å®šã—ã¦éè¡¨ç¤ºï¼ã€Œ|Youtube/i))ã€ã“ã®ã‚ˆã†ã«/ã®å¾Œã«ã€Œiã€ã‚’ã¤ã‘ã‚‹ã¨è‹±èªã®å¤§æ–‡å­—å°æ–‡å­—ã‚’åŒºåˆ¥ã—ãªããªã‚Šã¾ã™ã€‚
+! ãƒ›ãƒ¼ãƒ 
+youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(#video-title-link:has-text(/ä¸å€«|æµ®æ°—|äº¤éš›/))
+! ç™»éŒ²ãƒãƒ£ãƒ³ãƒãƒ«
+youtube.com##[page-subtype="subscriptions"] ytd-grid-video-renderer:has(#video-title:has-text(/ä¸å€«|æµ®æ°—|äº¤éš›/))
+! å‹•ç”»å³
+youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(#video-title:has-text(/ä¸å€«|æµ®æ°—|äº¤éš›/))
+! æ¤œç´¢çµæœ
+youtube.com##ytd-search ytd-video-renderer:has(#video-title:has-text(/ä¸å€«|æµ®æ°—|äº¤éš›/))
+! ãƒãƒ£ãƒ³ãƒãƒ«åã§å‹•ç”»ã‚’éè¡¨ç¤º
+! ãƒ›ãƒ¼ãƒ 
+youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(ytd-channel-name:has-text(/ä¸å€«|æµ®æ°—|äº¤éš›/))
+! ç™»éŒ²ãƒãƒ£ãƒ³ãƒãƒ«
+youtube.com##[page-subtype="subscriptions"] ytd-grid-video-renderer:has(ytd-channel-name:has-text(/ä¸å€«|æµ®æ°—|äº¤éš›/))
+! å‹•ç”»å³
+youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(ytd-channel-name:has-text(/ä¸å€«|æµ®æ°—|äº¤éš›/))
+! æ¤œç´¢çµæœ
+youtube.com##ytd-search ytd-video-renderer:has(ytd-channel-name:has-text(/ä¸å€«|æµ®æ°—|äº¤éš›/))
 
-! ƒRƒƒ“ƒg‚ğƒ[ƒhw’è‚µ‚Ä”ñ•\¦
-youtube.com##ytd-comment-renderer:has-text(/ƒvƒ‰ƒCƒx[ƒgAV|AVƒK[ƒ‹|“®‰æŒ©‚½‚ç1–œ|ŠwZ‚Å‚¢‚¶‚ß‚ç‚ê‚Ä‚Ü‚·/)
-! ã‚ÌƒtƒBƒ‹ƒ^‚Í”ñ•\¦‚É‚µ‚½ƒRƒƒ“ƒg‚É•ÔM‚ª‚ ‚é‚ÆuŒ‚Ì•ÔMv‚¾‚¯•\¦‚³‚ê‚½‚Ü‚Ü‚É‚È‚è‚Ü‚·B‚»‚±‚Å‘åŒ³‚ÌƒRƒƒ“ƒg‚Éw’è‚µ‚½ƒ[ƒh‚ª‚ ‚é‚ÆA•ÔM‚àŠÜ‚ß‚Ä”ñ•\¦‚É‚È‚éƒtƒBƒ‹ƒ^‚Å‚·B•ÔM‚Ìƒ[ƒh‚É‚Í”½‰‚µ‚Ü‚¹‚ñB
-youtube.com###comment:has-text(/•s—Ï|ƒnƒtƒ|ƒXƒg|‰¹Šy/i):upward(ytd-comment-thread-renderer)
+! ã‚³ãƒ¡ãƒ³ãƒˆã‚’ãƒ¯ãƒ¼ãƒ‰æŒ‡å®šã—ã¦éè¡¨ç¤º
+youtube.com##ytd-comment-renderer:has-text(/ãƒ—ãƒ©ã‚¤ãƒ™ãƒ¼ãƒˆAV|AVã‚¬ãƒ¼ãƒ«|å‹•ç”»è¦‹ãŸã‚‰1ä¸‡|å­¦æ ¡ã§ã„ã˜ã‚ã‚‰ã‚Œã¦ã¾ã™/)
+! ä¸Šã®ãƒ•ã‚£ãƒ«ã‚¿ã¯éè¡¨ç¤ºã«ã—ãŸã‚³ãƒ¡ãƒ³ãƒˆã«è¿”ä¿¡ãŒã‚ã‚‹ã¨ã€Œä»¶ã®è¿”ä¿¡ã€ã ã‘è¡¨ç¤ºã•ã‚ŒãŸã¾ã¾ã«ãªã‚Šã¾ã™ã€‚ãã“ã§å¤§å…ƒã®ã‚³ãƒ¡ãƒ³ãƒˆã«æŒ‡å®šã—ãŸãƒ¯ãƒ¼ãƒ‰ãŒã‚ã‚‹ã¨ã€è¿”ä¿¡ã‚‚å«ã‚ã¦éè¡¨ç¤ºã«ãªã‚‹ãƒ•ã‚£ãƒ«ã‚¿ã§ã™ã€‚è¿”ä¿¡ã®ãƒ¯ãƒ¼ãƒ‰ã«ã¯åå¿œã—ã¾ã›ã‚“ã€‚
+youtube.com###comment:has-text(/ä¸å€«|ãƒãƒ•ãƒã‚¹ãƒˆ|éŸ³æ¥½/i):upward(ytd-comment-thread-renderer)
 
-! ƒ`ƒƒƒbƒg—“‚ÌŠG•¶š‚ğ”ñ•\¦
+! ãƒãƒ£ãƒƒãƒˆæ¬„ã®çµµæ–‡å­—ã‚’éè¡¨ç¤º
 www.youtube.com###picker-buttons
 www.youtube.com###reaction-control-panel
 
-! YouTube‚Ìƒz[ƒ€L‚ÌƒXƒy[ƒX‚ğíœ‚·‚é•û–@
-! s“à‚Ì‘¼‚ÌƒrƒfƒI‚ğŠg‘å‚µ‚Ä‚»‚Ìs‚ğ–„‚ß‚é‚â‚è•û
-! ƒVƒ‡[ƒg“®‰æ‚Ííœ‚³‚ê‚È‚¢
-! •\¦“®‰æƒTƒ€ƒlƒCƒ‹”‚Í‘‚¦‚È‚¢
+! YouTubeã®ãƒ›ãƒ¼ãƒ åºƒå‘Šã®ã‚¹ãƒšãƒ¼ã‚¹ã‚’å‰Šé™¤ã™ã‚‹æ–¹æ³•
+! è¡Œå†…ã®ä»–ã®ãƒ“ãƒ‡ã‚ªã‚’æ‹¡å¤§ã—ã¦ãã®è¡Œã‚’åŸ‹ã‚ã‚‹ã‚„ã‚Šæ–¹
+! ã‚·ãƒ§ãƒ¼ãƒˆå‹•ç”»ã¯å‰Šé™¤ã•ã‚Œãªã„
+! è¡¨ç¤ºå‹•ç”»ã‚µãƒ ãƒã‚¤ãƒ«æ•°ã¯å¢—ãˆãªã„
 ! https://kdroidwin.hatenablog.com/entry/2023/09/07/172430
 ! youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row:style(--ytd-rich-grid-items-per-row: 1 !important;)
 ! youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row>#contents, ytd-browse[page-subtype="home"] ytd-rich-grid-row ytd-rich-grid-media:style(max-width: unset !important;)
 
 
-! ƒtƒ‹ƒXƒNƒŠ[ƒ“‚Ì^‚ñ’†‰º‚ÌuƒXƒNƒ[ƒ‹‚µ‚ÄÚ×‚ğ•\¦v‚ğ”ñ•\¦
+! ãƒ•ãƒ«ã‚¹ã‚¯ãƒªãƒ¼ãƒ³ã®çœŸã‚“ä¸­ä¸‹ã®ã€Œã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã—ã¦è©³ç´°ã‚’è¡¨ç¤ºã€ã‚’éè¡¨ç¤º
 www.youtube.com##.ytp-fullerscreen-edu-chevron
 
