@@ -1,1 +1,29 @@
-! Title
+! Title: My Filter Various
+! Expires: 4 days (update frequency)
+! Homepage: https://github.com/melon7878/adblock
+! Version: 20240420
+
+! プライバシー・利用規約
+##.grecaptcha-badge
+
+! Niconico
+! 2024-04-20
+! プレミア
+##.common-header-m5ds7e
+! 動画ページ
+nicovideo.jp##.RecommendAreaContainer-columnRight
+nicovideo.jp##.MainContainer-marquee
+nicovideo.jp##.FooterContainer
+nicovideo.jp##.BottomSideContainer
+nicovideo.jp##.UadVideosContainer.Card
+nicovideo.jp##.ControllerBoxCommentAreaContainer
+nicovideo.jp##.BottomContainer.InView
+nicovideo.jp##.WakutkoolNoticeContainer
+! Nアニメの右側
+anime.nicovideo.jp##._18XTj._1lNlv
+! その他
+nicovideo.jp##.NC-CreatorSupportAccepting-content.NC-Link
+nicovideo.jp##.OwnerNicoliveBannerContainer
+! www.nicovideo.jp##.LikeFieldContainer
+nicovideo.jp##.SeriesAdditionalContainer-share
+
