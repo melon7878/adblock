@@ -26,4 +26,4 @@ nicovideo.jp##.NC-CreatorSupportAccepting-content.NC-Link
 nicovideo.jp##.OwnerNicoliveBannerContainer
 ! www.nicovideo.jp##.LikeFieldContainer
 nicovideo.jp##.SeriesAdditionalContainer-share
-
+nicovideo.jp##.VideoIntroductionAreaContainer
