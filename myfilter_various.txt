@@ -19,6 +19,8 @@ nicovideo.jp##.UadVideosContainer.Card
 nicovideo.jp##.ControllerBoxCommentAreaContainer
 nicovideo.jp##.BottomContainer.InView
 nicovideo.jp##.WakutkoolNoticeContainer
+nicovideo.jp##.WakutkoolHeaderContainer
+nicovideo.jp##.WakutkoolFooterContainer
 ! Nアニメの右側
 anime.nicovideo.jp##._18XTj._1lNlv
 ! その他
