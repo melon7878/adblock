@@ -3,6 +3,8 @@
 ! Homepage: https://github.com/melon7878/adblock
 ! Version: 20240420
 
+! comment
+youtube.com###simple-box > .ytd-comments-header-renderer.style-scope
 
 ! ---------- EX ----------
 ! [Tweak for YouTube] 不具合修正
