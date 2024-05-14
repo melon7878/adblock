@@ -1,0 +1,23 @@
+! Title: My Filter JavaScript
+! Expires: 4 days (update frequency)
+! Homepage: https://github.com/melon7878/adblock
+! Version: 20240514
+
+! bloomberg
+www.bloomberg.co.jp##.bb-that
+www.bloomberg.co.jp##.navi
+www.bloomberg.co.jp##.bb-global-footer
+www.bloomberg.co.jp##.touts
+https://assets.bwbx.io/s3/javelin/public/javelin/js/transporter/transporter-51fabfd75c.js^$script,inline-script,important
+
+! forbes
+forbesjapan.com##.header_fixed.header
+forbesjapan.com##header.header
+forbesjapan.com##[href="/30under30"]
+forbesjapan.com##aside.sp-none.side-banner:nth-of-type(2)
+forbesjapan.com##.article-detail-list
+forbesjapan.com##.follow_us.article-detail-follow
+forbesjapan.com##.cont-right
+forbesjapan.com##.footer
+forbesjapan.com/asset/frontend/dist/functions-standard-article-full.bundle.js^$script,inline-script,important
+
