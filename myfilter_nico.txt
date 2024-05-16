@@ -1,0 +1,73 @@
+! Title: My Filter for niconico
+! Expires: 4 days (update frequency)
+! Homepage: https://github.com/melon7878/adblock
+! Version: 20240516
+
+! 動画が終わった後のニコニ貢献による提供 @AdGuard Annoyances
+!||nicoad.nicovideo.jp/v1/contents/video/*/pickup_supporters
+
+! ----- 動画ページ -----
+! コメント入力欄
+nicovideo.jp##.ControllerBoxCommentAreaContainer
+
+! コメント上: いいねの部分を非表示にして、「マイリスト」と「共有」をコメント上に移動
+nicovideo.jp##.PlayerPanelContainer:style(top: 0px !important)
+nicovideo.jp##.MylistButton.VideoMenuContainer-button:style(top: 36px!important;left: 55px!important;z-index: 1!important;transform: scale(0.7);fill: #b2bac2!important)
+nicovideo.jp##.SharePanelVisibleActionButton:style(top: 36px!important;left: -175px!important;z-index: 1!important;transform: scale(0.8))
+nicovideo.jp##.SharePanelVisibleActionButton > svg:style(fill: #b2bac2!important)
+
+! コメント下「ギフト」を非表示
+nicovideo.jp##div.GiftSubEffectContainer
+
+! 動画上のタグ編集と黒帯を非表示
+! タグ
+nicovideo.jp##.TagContainer-area.TagContainer-TagEditButtonArea
+! 黒帯
+nicovideo.jp##.MainContainer-marquee
+
+! シークバーのプレビューを非表示
+nicovideo.jp##.SeekBarStoryboardPremiumLink
+
+! 動画設定のプレミアム機能を非表示
+nicovideo.jp##.PlayerOptionMenuItem.FlipMenuItem
+nicovideo.jp##.PlayerOptionMenuItem.ResumeMenuItem
+nicovideo.jp##.PlayerOptionMenuItem.SkipMenuItem
+nicovideo.jp##.PlayerOptionMenuGroup:has(.MarqueeMenuItem)
+nicovideo.jp##.PlayerOptionContainer:style(max-height:524px!important)
+nicovideo.jp##.PlaybackRateMenu-contents .PremiumRequirer
+
+! 動画下の要素をすべて非表示
+! 「コンテンツツリー」「関連コンテンツ」以下の部分と、フッターを非表示
+nicovideo.jp##.WatchAppContainer-main .BottomContainer
+nicovideo.jp##footer
+
+
+! ----- 全体 -----
+! 上のタブを非表示
+! チャンネル、ブロマガ
+nicovideo.jp##.nico-CommonHeaderRoot [href^="https://ch.nicovideo.jp"]
+! アツマール
+nicovideo.jp##.nico-CommonHeaderRoot [href^="https://game.nicovideo.jp/atsumaru/"]
+! アプリ
+nicovideo.jp##.nico-CommonHeaderRoot [href^="http://app.nicovideo.jp"]
+! 静画
+!nicovideo.jp##.nico-CommonHeaderRoot [href^="https://seiga.nicovideo.jp"]
+! 実況
+nicovideo.jp##.nico-CommonHeaderRoot [href^="https://jk.nicovideo.jp"]
+! その他
+nicovideo.jp##.nico-CommonHeaderRoot > div > div > div:nth-of-type(1) > div
+!プレミアム会員登録
+nicovideo.jp##[href^="https://account.nicovideo.jp/premium/register?site="]
+! 通知アイコン
+nicovideo.jp##.nico-CommonHeaderRoot path[d^="M10.913 22c1.44"]:upward(4)
+
+! Nアニメの右側
+anime.nicovideo.jp##._18XTj._1lNlv
+
+! その他
+nicovideo.jp##.NC-CreatorSupportAccepting-content.NC-Link
+nicovideo.jp##.OwnerNicoliveBannerContainer
+! www.nicovideo.jp##.LikeFieldContainer
+nicovideo.jp##.SeriesAdditionalContainer-share
+nicovideo.jp##.VideoIntroductionAreaContainer
+
