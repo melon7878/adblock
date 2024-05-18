@@ -1,7 +1,7 @@
 ! Title: My Filter for YouTube
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20240420
+! Version: 20240518
 
 ! comment
 youtube.com###simple-box > .ytd-comments-header-renderer.style-scope
@@ -80,7 +80,8 @@ youtube.com##.ytp-subtitles-button[data-title-no-tooltip="字幕を利用でき�
 youtube.com##.ytp-button.ytp-miniplayer-button
 
 ! フルスクリーン時の「スクロールして表示」
-youtube.com##.ytp-fullerscreen-edu-chevron
+!youtube.com##.ytp-fullerscreen-edu-chevron
+youtube.com##.ytp-fullerscreen-edu-button
 
 ! 動画終了前のおすすめ動画を非表示
 youtube.com##.ytp-ce-element
