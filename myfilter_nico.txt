@@ -61,6 +61,9 @@ nicovideo.jp##[href^="https://account.nicovideo.jp/premium/register?site="]
 ! 通知アイコン
 nicovideo.jp##.nico-CommonHeaderRoot path[d^="M10.913 22c1.44"]:upward(4)
 
+! マイページのバナー
+nicovideo.jp##.RightSideContainer
+
 ! Nアニメの右側
 anime.nicovideo.jp##._18XTj._1lNlv
 
