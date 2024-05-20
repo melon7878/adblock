@@ -41,6 +41,8 @@ nicovideo.jp##.PlaybackRateMenu-contents .PremiumRequirer
 nicovideo.jp##.WatchAppContainer-main .BottomContainer
 nicovideo.jp##footer
 
+! チャンネル登録促しバナー
+nicovideo.jp##.NC-CreatorSupportAccepting-content
 
 ! ----- 全体 -----
 ! 上のタブを非表示
