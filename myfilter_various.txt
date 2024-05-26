@@ -11,7 +11,6 @@
 gizmodo.jp#@#.araklet
 ! 固定ヘッダーを除去。ヘッダー全消しは→ !gizmodo.jp###globalNav
 www.gizmodo.jp##.is-fixed.h-body
-! 右側
 gizmodo.jp##.l-generalContent-secondary
 ! LATEST NEWS。→だと記事一覧でページ選択できない  !gizmodo.jp##div.l-generalContent
 gizmodo.jp##.p-recommend:upward(2)
@@ -26,15 +25,22 @@ gizmodo.jp###footer
 
 ! gigazine.net
 gigazine.net###header
+!gigazine.net###header-social-button-box !ヘッダー内
 gigazine.net###latest
 gigazine.net###sub
 ! Discordフォーラム勧誘
-gigazine.net##p.preface
+gigazine.net##p.preface:has-text(◆フォーラム開設中)
 ! GIGAZINE シークレットクラブ への勧誘
 gigazine.net###banner-ef
 gigazine.net##.rlcontents-s
 gigazine.net###next-prev
 gigazine.net##footer
 
-
+! impress.co.jp
+impress.co.jp##header
+impress.co.jp###extra.nocontent
+impress.co.jp##.to-top-button
+impress.co.jp##footer
+! 未確認
+!impress.co.jp##.clear.fb-parts.hcenter.wp60.box-02
 
