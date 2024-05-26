@@ -8,7 +8,7 @@ www.bloomberg.co.jp##.bb-that
 www.bloomberg.co.jp##.navi
 www.bloomberg.co.jp##.bb-global-footer
 www.bloomberg.co.jp##.touts
-https://assets.bwbx.io/s3/javelin/public/javelin/js/transporter/transporter-51fabfd75c.js^$script,inline-script,important
+assets.bwbx.io/s3/javelin/public/javelin/js/transporter/transporter-51fabfd75c.js^$script,inline-script,important
 
 ! forbes
 forbesjapan.com##.header_fixed.header
