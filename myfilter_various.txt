@@ -1,8 +1,27 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20240516
+! Version: 20240526
 
 ! プライバシー・利用規約
 ##.grecaptcha-badge
+
+! gizmodo.jp
+! 例外：EC購入枠 @ AdGuard JP
+gizmodo.jp#@#.araklet
+! 固定ヘッダーを除去。ヘッダー全消しは→ !gizmodo.jp###globalNav
+www.gizmodo.jp##.is-fixed.h-body
+! 右側
+gizmodo.jp##.l-generalContent-secondary
+! LATEST NEWS。→だと記事一覧でページ選択できない  !gizmodo.jp##div.l-generalContent
+gizmodo.jp##.p-recommend:upward(2)
+
+!gizmodo.jp##div.l-heroContent !ad枠 @ AdGuard JP !##.ad-banner
+gizmodo.jp##.l-videoArea
+gizmodo.jp###footer
+! 未確認
+!gizmodo.jp##.p-featureBanner
+!gizmodo.jp##.p-post-survey
+!gizmodo.jp##.p-post-survey-share
+!gizmodo.jp##.p-featureList
 
