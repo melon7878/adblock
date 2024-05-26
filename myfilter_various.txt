@@ -15,7 +15,6 @@ www.gizmodo.jp##.is-fixed.h-body
 gizmodo.jp##.l-generalContent-secondary
 ! LATEST NEWS。→だと記事一覧でページ選択できない  !gizmodo.jp##div.l-generalContent
 gizmodo.jp##.p-recommend:upward(2)
-
 !gizmodo.jp##div.l-heroContent !ad枠 @ AdGuard JP !##.ad-banner
 gizmodo.jp##.l-videoArea
 gizmodo.jp###footer
@@ -24,4 +23,18 @@ gizmodo.jp###footer
 !gizmodo.jp##.p-post-survey
 !gizmodo.jp##.p-post-survey-share
 !gizmodo.jp##.p-featureList
+
+! gigazine.net
+gigazine.net###header
+gigazine.net###latest
+gigazine.net###sub
+! Discordフォーラム勧誘
+gigazine.net##p.preface
+! GIGAZINE シークレットクラブ への勧誘
+gigazine.net###banner-ef
+gigazine.net##.rlcontents-s
+gigazine.net###next-prev
+gigazine.net##footer
+
+
 
