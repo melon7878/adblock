@@ -6,6 +6,10 @@
 ! プライバシー・利用規約
 ##.grecaptcha-badge
 
+! myfilter_jsで済み
+! bloomberg.co.jp
+! forbesjapan.com
+
 ! gizmodo.jp
 ! 例外：EC購入枠 @ AdGuard JP
 gizmodo.jp#@#.araklet
