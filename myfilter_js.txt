@@ -22,3 +22,21 @@ forbesjapan.com##.footer
 ! 未確認
 forbesjapan.com##[href="/30under30"]
 
+! cnn.co.jp
+cnn.co.jp###nav-global
+cnn.co.jp##.pg-container-side
+! こんな話題も
+!cnn.co.jp###related_stories > h2:has-text(こんな話題も):upward(1)
+! 「<topic>」のニュース。sectionをいれないと、記事一覧で誤爆
+cnn.co.jp##section > h2:has-text(のニュース):upward(1)
+! Video
+cnn.co.jp##section > .story-video-btm:upward(1)
+! Photo
+cnn.co.jp##section > .story-photo-btm:upward(1)
+! 注目ニュース
+!cnn.co.jp##section > h2:has-text(注目ニュース):upward(1)
+cnn.co.jp##body > .pg-container
+cnn.co.jp##footer
+! メルマガ登録オーバーレイの非表示 @ cnn.co.jp/static/js/atlanta/common.js?1716349741
+cnn.co.jp##+js(addEventListener-defuser.js, DOMContentLoaded, CNN_MAIL_MAGAZIN)
+
