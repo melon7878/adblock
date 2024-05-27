@@ -9,6 +9,7 @@
 ! myfilter_jsで済み
 ! bloomberg.co.jp
 ! forbesjapan.com
+! cnn.co.jp
 
 ! gizmodo.jp
 ! 例外：EC購入枠 @ AdGuard JP
