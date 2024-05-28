@@ -68,7 +68,6 @@ smhn.info##header
 smhn.info###futured_tagcloud
 smhn.info###secondary
 ! こんな記事も読まれています
-!smhn.info###primary > .box.post-list > h3:has-text(こんな記事も読まれています):upward(1)
 smhn.info##.box.post-list:has(h3:has-text(こんな記事も読まれています))
 ! Twitter
 smhn.info##.box.tweetbox
