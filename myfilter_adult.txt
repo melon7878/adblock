@@ -5,7 +5,5 @@
 
 ! bakufu.jp
 bakufu.jp##td > font > b:has-text(当サイトはアフィリエイト広告を利用しています):upward(2)
-bakufu.jp##.entry-content > a[rel="noopener"]
-bakufu.jp##.entry-content > b:has-text(関連記事)
 bakufu.jp##.banner
 
