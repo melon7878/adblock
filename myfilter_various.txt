@@ -61,3 +61,18 @@ nichepcgamer.com##.popular-posts.widget:upward(1)
 ! 新着記事
 nichepcgamer.com###thk_recent_posts-2
 
+! smhn.info
+smhn.info##header
+!smhn.info###global
+!smhn.info###breadcrumbs
+smhn.info###futured_tagcloud
+smhn.info###secondary
+! こんな記事も読まれています
+!smhn.info###primary > .box.post-list > h3:has-text(こんな記事も読まれています):upward(1)
+smhn.info##.box.post-list:has(h3:has-text(こんな記事も読まれています))
+! Twitter
+smhn.info##.box.tweetbox
+! ～についての他の記事
+smhn.info##.box.post-list:has(h3:has-text(についての他の記事))
+smhn.info##footer
+
