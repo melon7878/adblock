@@ -98,7 +98,7 @@ wired.jp,wired.com##div.PersistentTopWrapper-ecjesM.gywviM.persistent-top > head
 ! サムネイル
 wired.jp,wired.com##div[data-testid="ContentHeaderLeadAsset"]
 ! 本文中の関連記事
-wired.jp,wired.com##.RelatedListItem-gClwMZ:upward(2)
+wired.jp##.RelatedListItem-gClwMZ:upward(2)
 wired.jp,wired.com##.grid-layout__aside
 wired.jp,wired.com##footer
 ! ヘッダー
