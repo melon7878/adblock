@@ -93,3 +93,12 @@ weekly.ascii.jp##section.bottom__articleList
 weekly.ascii.jp##section.article__footer
 weekly.ascii.jp###footerFixed
 
+! wired.jp
+wired.jp##div.PersistentTopWrapper-ecjesM.gywviM.persistent-top > header
+! サムネイル
+wired.jp##div[data-testid="ContentHeaderLeadAsset"]
+! 本文中の関連記事
+wired.jp##.RelatedListItem-gClwMZ:upward(2)
+wired.jp##.grid-layout__aside
+wired.jp##footer
+
