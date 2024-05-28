@@ -76,3 +76,21 @@ smhn.info##.box.tweetbox
 smhn.info##.box.post-list:has(h3:has-text(についての他の記事))
 smhn.info##footer
 
+! ascii.jp
+ascii.jp###header
+ascii.jp###sideL
+ascii.jp###sideR
+ascii.jp##.sbmV3
+ascii.jp###clubreco
+ascii.jp###footer
+
+! weekly.ascii.jp
+weekly.ascii.jp##header
+weekly.ascii.jp##.wrap__category
+weekly.ascii.jp##main > aside.ads
+weekly.ascii.jp##.snsFollow
+weekly.ascii.jp##section.article__body > div.returnCat
+weekly.ascii.jp##section.bottom__articleList
+weekly.ascii.jp##section.article__footer
+weekly.ascii.jp###footerFixed
+
