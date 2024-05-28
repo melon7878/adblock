@@ -49,3 +49,15 @@ impress.co.jp##footer
 ! 未確認
 !impress.co.jp##.clear.fb-parts.hcenter.wp60.box-02
 
+! nichepcgamer.com
+nichepcgamer.com###head-in
+nichepcgamer.com##footer
+nichepcgamer.com###copyright
+! nichepcgamer.com###main > article > aside
+nichepcgamer.com###pnavi
+nichepcgamer.com###related-box
+! 人気記事
+nichepcgamer.com##.popular-posts.widget:upward(1)
+! 新着記事
+nichepcgamer.com###thk_recent_posts-2
+
