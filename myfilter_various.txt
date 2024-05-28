@@ -93,12 +93,34 @@ weekly.ascii.jp##section.bottom__articleList
 weekly.ascii.jp##section.article__footer
 weekly.ascii.jp###footerFixed
 
-! wired.jp
-wired.jp##div.PersistentTopWrapper-ecjesM.gywviM.persistent-top > header
+! wired.jp, wired.com
+wired.jp,wired.com##div.PersistentTopWrapper-ecjesM.gywviM.persistent-top > header
 ! サムネイル
-wired.jp##div[data-testid="ContentHeaderLeadAsset"]
+wired.jp,wired.com##div[data-testid="ContentHeaderLeadAsset"]
 ! 本文中の関連記事
-wired.jp##.RelatedListItem-gClwMZ:upward(2)
-wired.jp##.grid-layout__aside
-wired.jp##footer
+wired.jp,wired.com##.RelatedListItem-gClwMZ:upward(2)
+wired.jp,wired.com##.grid-layout__aside
+wired.jp,wired.com##footer
+! ヘッダー
+wired.com###link-banner
+wired.com##button#bookmark
+! 課金オファー
+wired.com##p:has(a[href^="https://www.wired.com/v2/offers/"])
+! アフェリンク表示
+wired.com##.blockquote-embed.paywall.gzzTVu.BlockquoteEmbedWrapper-sc-SdiGL
+! You Might Also Like
+wired.com##.linkstack.kgtXXB.LinkStackWrapper-NFLYw
+! comments：動的に作られるので、hasやupwardが効かない
+wired.com##button[aria-controls="tabPane-COMMENTS"]
+!wired.com##section[aria-label="Authentication"]:upward(1)
+!wired.com##div:has(section:has(span:has-text(Join the conversation)))
+wired.com##section[aria-label="Authentication"]
+wired.com##section[data-testid="community-guidelines"]
+wired.com##section[aria-label="Post a Comment"]
+! カテゴリー
+wired.com##div[data-testid="TagCloudWrapper"]
+! READ MORE
+wired.com##.grid--item.kHPPIF.GridItem-buujkM
+! WIRED COUPONS
+wired.com##.eCKeZn.CouponGrid-bStwlh
 
