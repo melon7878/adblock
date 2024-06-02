@@ -124,3 +124,11 @@ wired.com##.grid--item.kHPPIF.GridItem-buujkM
 ! WIRED COUPONS
 wired.com##.eCKeZn.CouponGrid-bStwlh
 
+! biz-journal.jp
+biz-journal.jp###header
+biz-journal.jp###nav
+biz-journal.jp###aside
+biz-journal.jp###topPickup
+biz-journal.jp###relatedCatchText
+biz-journal.jp###footer
+
