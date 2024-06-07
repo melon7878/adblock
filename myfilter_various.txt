@@ -158,3 +158,9 @@ japan.zdnet.com##.pg-mod.list-special-col2.list-special
 japan.zdnet.com##section > .pg-mod > h3 > span:has-text(CNET Japan Top  Story):upward(2)
 japan.zdnet.com##footer
 
+! trafficnews.jp
+trafficnews.jp##header
+trafficnews.jp###side-column
+trafficnews.jp##.article-middle-link
+trafficnews.jp###respond
+trafficnews.jp##footer
