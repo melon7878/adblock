@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20240526
+! Version: 20240607
 
 ! プライバシー・利用規約
 ##.grecaptcha-badge
@@ -131,4 +131,30 @@ biz-journal.jp###aside
 biz-journal.jp###topPickup
 biz-journal.jp###relatedCatchText
 biz-journal.jp###footer
+
+! japan.cnet.com
+japan.cnet.com###header-wrap
+! サムネ
+japan.cnet.com##.leaf-headline-thumb
+japan.cnet.com###rightside-column
+! あなたにおすすめの記事
+japan.cnet.com###logly-lift-widget-content-head:upward(1)
+japan.cnet.com##.nocontent.inner-bg
+japan.cnet.com###footer-wrap
+! モバイル
+japan.cnet.com###header-global-resp
+japan.cnet.com###tieup_control_sp
+japan.cnet.com###footer-wrap-resp
+
+! japan.zdnet.com
+japan.zdnet.com###header-main
+japan.zdnet.com##.article-header-thumb
+japan.zdnet.com##.pg-container-side
+! 関連ホワイトペーパー
+japan.zdnet.com##section > .pg-mod > h3 > span:has-text(関連ホワイトペーパー):upward(2)
+! 特集
+japan.zdnet.com##.pg-mod.list-special-col2.list-special
+! CNET Japan Top Story
+japan.zdnet.com##section > .pg-mod > h3 > span:has-text(CNET Japan Top  Story):upward(2)
+japan.zdnet.com##footer
 
