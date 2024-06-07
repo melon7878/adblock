@@ -164,3 +164,11 @@ trafficnews.jp###side-column
 trafficnews.jp##.article-middle-link
 trafficnews.jp###respond
 trafficnews.jp##footer
+
+! president.jp
+president.jp##header
+president.jp##.article-head
+president.jp##.l-sub
+president.jp##.family
+president.jp##footer
+
