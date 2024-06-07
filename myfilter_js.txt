@@ -38,5 +38,6 @@ cnn.co.jp##section > .story-photo-btm:upward(1)
 cnn.co.jp##body > .pg-container
 cnn.co.jp##footer
 ! メルマガ登録オーバーレイの非表示 @ cnn.co.jp/static/js/atlanta/common.js?1716349741
-cnn.co.jp##+js(addEventListener-defuser.js, DOMContentLoaded, CNN_MAIL_MAGAZIN)
-
+!cnn.co.jp##+js(addEventListener-defuser.js, DOMContentLoaded, CNN_MAIL_MAGAZIN)
+cnn.co.jp##.is-show.overlay
+cnn.co.jp##body:watch-attr(class):remove-attr(class)
