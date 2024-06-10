@@ -1,7 +1,7 @@
 ! Title: My Filter for YouTube
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20240518
+! Version: 20240610
 
 ! comment
 youtube.com###simple-box > .ytd-comments-header-renderer.style-scope
@@ -9,8 +9,8 @@ youtube.com###simple-box > .ytd-comments-header-renderer.style-scope
 ! ---------- EX ----------
 ! [Tweak for YouTube] 不具合修正
 youtube.com##ytd-engagement-panel-section-list-renderer.style-scope.ytd-watch-flexy:has([target-id="engagement-panel-clip-create"])
-youtube.com##ytd-engagement-panel-section-list-renderer.style-scope.ytd-watch-flexy:has([target-id="engagement-panel-structured-description"])
-youtube.com##ytd-engagement-panel-section-list-renderer.style-scope.ytd-watch-flexy:has([target-id="engagement-panel-searchable-transcript"])
+!youtube.com##ytd-engagement-panel-section-list-renderer.style-scope.ytd-watch-flexy:has([target-id="engagement-panel-structured-description"])
+!youtube.com##ytd-engagement-panel-section-list-renderer.style-scope.ytd-watch-flexy:has([target-id="engagement-panel-searchable-transcript"])
 
 
 ! ---------- All ----------
@@ -118,7 +118,7 @@ youtube.com###clarify-box
 ! 音楽情報
 youtube.com##ytd-text-inline-expander > [slot="extra-content"]:has(ytd-video-description-music-section-renderer)
 ! 文字起こし
-youtube.com##ytd-text-inline-expander > [slot="extra-content"]:has(ytd-structured-description-content-renderer)
+!youtube.com##ytd-text-inline-expander > [slot="extra-content"]:has(ytd-structured-description-content-renderer)
 
 ! 動画下のゲームなどの情報とグッズ欄を非表示
 ! ゲーム
