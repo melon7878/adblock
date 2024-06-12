@@ -14,8 +14,9 @@
 ! gizmodo.jp
 ! 例外：EC購入枠 @ AdGuard JP
 gizmodo.jp#@#.araklet
-! 固定ヘッダーを除去。ヘッダー全消しは→ !gizmodo.jp###globalNav
-gizmodo.jp##.is-fixed.h-body
+! 固定ヘッダー -> !gizmodo.jp##.is-fixed.h-body
+! ヘッダー
+gizmodo.jp###globalNav
 gizmodo.jp##.l-generalContent-secondary
 ! LATEST NEWS。→だと記事一覧でページ選択できない  !gizmodo.jp##div.l-generalContent
 !gizmodo.jp##.p-recommend:upward(div.l-generalContent)
