@@ -15,19 +15,17 @@
 ! 例外：EC購入枠 @ AdGuard JP
 gizmodo.jp#@#.araklet
 ! 固定ヘッダーを除去。ヘッダー全消しは→ !gizmodo.jp###globalNav
-www.gizmodo.jp##.is-fixed.h-body
+gizmodo.jp##.is-fixed.h-body
 gizmodo.jp##.l-generalContent-secondary
 ! LATEST NEWS。→だと記事一覧でページ選択できない  !gizmodo.jp##div.l-generalContent
-gizmodo.jp##.p-recommend:upward(2)
+!gizmodo.jp##.p-recommend:upward(div.l-generalContent)
+gizmodo.jp##h2:has-text(LATEST NEWS):upward(3)
 !gizmodo.jp##div.l-heroContent !ad枠 @ AdGuard JP !##.ad-banner
 gizmodo.jp##.l-videoArea
 gizmodo.jp###footer
 ! 投票
 gizmodo.jp##.p-post-survey
 gizmodo.jp##.p-post-survey-share
-! 未確認
-!gizmodo.jp##.p-featureBanner
-!gizmodo.jp##.p-featureList
 
 ! gigazine.net
 gigazine.net###header
