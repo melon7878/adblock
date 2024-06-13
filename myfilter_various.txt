@@ -172,3 +172,10 @@ president.jp##.l-sub
 president.jp##.family
 president.jp##footer
 
+! newsweekjapan.jp
+newsweekjapan.jp###head
+newsweekjapan.jp###contentHead
+newsweekjapan.jp###sidePanel
+newsweekjapan.jp###btm-contents
+newsweekjapan.jp###foot
+
