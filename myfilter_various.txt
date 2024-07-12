@@ -11,6 +11,9 @@
 ! forbesjapan.com
 ! cnn.co.jp
 
+! 5ch 常にPC版で表示
+5ch.net##+js(set-cookie, 5chClassic, on)
+
 ! gizmodo.jp
 ! 例外：EC購入枠 @ AdGuard JP
 gizmodo.jp#@#.araklet
