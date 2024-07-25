@@ -1,7 +1,7 @@
 ! Title: My Filter for Adult
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20240528
+! Version: 20240725
 
 ! bakufu.jp
 bakufu.jp##td > font > b:has-text(当サイトはアフィリエイト広告を利用しています):upward(2)
