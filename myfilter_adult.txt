@@ -6,4 +6,8 @@
 ! bakufu.jp
 bakufu.jp##td > font > b:has-text(当サイトはアフィリエイト広告を利用しています):upward(2)
 bakufu.jp##.banner
+bakufu.jp##.erogaroku__list
+bakufu.jp##.adList
+bakufu.jp##div#blogRoll
+
 
