@@ -1,8 +1,18 @@
 ! Title: My Filter for niconico
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20240516
+! Version: 20240901
 
+! ----- 2024-08-05 サイバー攻撃復旧後 -----
+! ----- 動画ページ -----
+! コメント投稿エリア：あとで見るやマイリス登録の入った三点メニューも消える
+!nicovideo.jp##.h_watchActionbar\.height.box_content-box.items_center.justify_space-between.gap_x3.d_flex
+! コメント投稿エリア（フルスク）
+! clss="d_flex gap_x3 justify_space-between items_center box_content-box h_watchActionbar.height p_base bg_layer.background"
+nicovideo.jp##.bg_layer\.background.p_base.h_watchActionbar\.height.box_content-box.items_center.justify_space-between.gap_x3.d_flex
+
+
+! ----- 2024-06-08 サイバー攻撃前 -----
 ! 動画が終わった後のニコニ貢献による提供 @AdGuard Annoyances
 !||nicoad.nicovideo.jp/v1/contents/video/*/pickup_supporters
 
