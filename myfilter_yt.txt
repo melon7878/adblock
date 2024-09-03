@@ -192,3 +192,8 @@ youtube.com##ytd-search ytd-video-renderer:has(ytd-channel-name:has-text(/不倫
 !youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row:style(--ytd-rich-grid-items-per-row: 1 !important;)
 !youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row>#contents, ytd-browse[page-subtype="home"] ytd-rich-grid-row ytd-rich-grid-media:style(max-width: unset !important;)
 
+! 2024-09-03：未確認：広告跡を埋める
+!   2024/03/14更新：https://hachima25.hatenablog.com/entry/20221230/1672393062
+!youtube.com##ytd-browse:is([page-subtype="home"],[page-subtype="subscriptions"],[page-subtype="channels"]) :is(ytd-rich-grid-row, #contents.ytd-rich-grid-row):style(display: contents !important)
+!youtube.com##ytd-rich-item-renderer[is-slim-grid]:first-of-type:style(margin-left: auto !important;)
+!youtube.com##ytd-rich-item-renderer[is-slim-grid]:last-of-type:style(margin-right: auto !important;)
