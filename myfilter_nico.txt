@@ -10,6 +10,12 @@
 ! コメント投稿エリア（フルスク）
 ! clss="d_flex gap_x3 justify_space-between items_center box_content-box h_watchActionbar.height p_base bg_layer.background"
 nicovideo.jp##.bg_layer\.background.p_base.h_watchActionbar\.height.box_content-box.items_center.justify_space-between.gap_x3.d_flex
+! おすすめの有料動画(dアニ以外)
+nicovideo.jp##a[data-anchor-area="related_content,recommendation"]:has(span:has-text("有料")):not(:has(p:has-text("dアニメストア ニコニコ支店")))
+! プレイリストの有料動画(dアニ以外)
+nicovideo.jp##a[data-anchor-area="playlist"]:has(span:has-text("有料")):not(:has(p:has-text("dアニメストア ニコニコ支店")))
+! キーワード検索プレイリストの有料動画(dアニ以外)：↑だとシリーズプレイリストも消えるので、それが嫌ならこっち
+!nicovideo.jp##a[data-anchor-area="playlist"]:has(span:has-text("有料")):not(:has(p:has-text("dアニメストア ニコニコ支店"))):if(:xpath(../../../../../../header/div/div/p):has-text("キーワード検索"))
 
 
 ! ----- 2024-06-08 サイバー攻撃前 -----
