@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20240612
+! Version: 20240904
 
 ! プライバシー・利用規約
 ##.grecaptcha-badge
@@ -184,4 +184,21 @@ newsweekjapan.jp###foot
 
 ! hypergadget.jp
 hypergadget.jp##.google-ads:upward(div)
+
+! dailyshincho.jp デイリー新潮
+! ヘッダー
+dailyshincho.jp##.l-header__contents
+dailyshincho.jp##.c-list-article--border
+! 右サイドバー
+dailyshincho.jp##.l-contents__sub
+! リードの後の"速報"記事リンク
+dailyshincho.jp##.c-text-link:has(span.c-tag-report:has-text("速報"))
+! 本文後の情報提供バナー
+dailyshincho.jp##.confidentialBanner
+! 本文下部
+dailyshincho.jp##.c-list-sns--articleHorizon.c-list-sns--horizon
+dailyshincho.jp##.l-contents__aside
+! フッター
+dailyshincho.jp##.l-footer
+dailyshincho.jp##.footer_copy
 
