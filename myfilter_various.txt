@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20240904
+! Version: 20240905
 
 ! プライバシー・利用規約
 ##.grecaptcha-badge
@@ -201,4 +201,12 @@ dailyshincho.jp##.l-contents__aside
 ! フッター
 dailyshincho.jp##.l-footer
 dailyshincho.jp##.footer_copy
+
+! orefolder.jp
+! ブルースカイボタン:sticky
+orefolder.jp##.snsbtn
+! 広告掲載表示
+orefolder.jp##.adad
+! 広告枠が残ってる
+orefolder.jp##.adsbygoogle:upward(div)
 
