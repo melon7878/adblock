@@ -210,3 +210,18 @@ orefolder.jp##.adad
 ! 広告枠が残ってる
 orefolder.jp##.adsbygoogle:upward(div)
 
+! daily-gadget.net
+daily-gadget.net###header
+daily-gadget.net###navi
+daily-gadget.net###sidebar
+! 本文 youtube, twitterバナー
+daily-gadget.net##.widget_media_image.widget-over-article
+daily-gadget.net##.comment-respond
+daily-gadget.net##.main-footer
+! youtube
+daily-gadget.net##h3:has(strong:has-text("デイリーガジェットYouTubeチャンネル！"))
+daily-gadget.net##p:has-text("デイリーガジェットでは、UMPC（超小型PC）、スマホ、タブレット、レトロPCをはじめとして、商品のレビューやインタビューの動画を、YouTubeに”ほぼ”毎日公開しています。")
+daily-gadget.net##p:has-text("デイリーガジェット動画部のVTuberである風林火山朱音とケンがゆるい感じにレポートしています。")
+daily-gadget.net##p:has(span:has(strong:has-text("ぜひ↓からチャンネル登録をお願いします！")))
+daily-gadget.net##p:has(a[href="https://www.youtube.com/channel/UCFjFjyDXUG9mDGHCxNZ5yuQ"])
+
