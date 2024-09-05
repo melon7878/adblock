@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20240905-2
+! Version: 20240905-3
 
 ! プライバシー・利用規約
 ##.grecaptcha-badge
@@ -224,4 +224,27 @@ daily-gadget.net##p:has-text("デイリーガジェットでは、UMPC（超小�
 daily-gadget.net##p:has-text("デイリーガジェット動画部のVTuberである風林火山朱音とケンがゆるい感じにレポートしています。")
 daily-gadget.net##p:has(span:has(strong:has-text("ぜひ↓からチャンネル登録をお願いします！")))
 daily-gadget.net##p:has(a[href="https://www.youtube.com/channel/UCFjFjyDXUG9mDGHCxNZ5yuQ"])
+
+! s-max.jp
+! バックグラウンドimg
+||s-max.jp/img_parts/content_bg.png$image
+! ヘッダー
+s-max.jp##.blog-title-outer
+! 左サイド
+s-max.jp###sub
+! 右サイド
+s-max.jp###extra
+! 真ん中
+s-max.jp##.google-user-ad
+! 上下 前次記事
+s-max.jp##.pager-inner
+! 本文
+s-max.jp##.social_bookmarking
+! 本文下
+s-max.jp###bottom-social
+s-max.jp##.article-footer
+! コメント
+s-max.jp###comment-form
+! フッター
+s-max.jp##.footer-outer
 
