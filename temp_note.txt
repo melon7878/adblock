@@ -1,0 +1,537 @@
+! 2022-03-21 https://gamewith.jp
+gamewith.jp##.to-btn--nps
+
+
+! 2023-08-05 https://realsound.jp
+realsound.jp##.fixed-share
+
+
+! 2023-08-12 https://s-max.jp
+s-max.jp###sub
+s-max.jp###extra
+s-max.jp##.pager-inner
+s-max.jp##.blog-title-outer
+s-max.jp##.social_bookmarking
+s-max.jp###bottom-social
+
+
+! 2023-08-28 https://fpsjp.net
+fpsjp.net###sidebar > .widget_swell_sns_links.c-widget
+fpsjp.net###custom_html-79
+fpsjp.net##.widget_swell_popular_posts.c-widget
+fpsjp.net##.widget_swell_new_posts.c-widget
+fpsjp.net##.widget_recent_comments.c-widget
+fpsjp.net###fix_header
+
+
+! 2023-09-05 https://jetstream.bz
+jetstream.bz##.sidebar
+
+
+
+! 2023-09-14 https://businessnetwork.jp
+businessnetwork.jp##.pageCookie
+businessnetwork.jp##.header
+
+
+
+! 2023-09-15 https://www.cyzo.com
+www.cyzo.com###ticker
+
+! 2023-09-15 https://dengekionline.com
+dengekionline.com##.gNav
+dengekionline.com##.gSubNav
+dengekionline.com##.gBody_col-left.gBody_col
+dengekionline.com##.gPr_box
+dengekionline.com##.gBody_col-right.gBody_col
+dengekionline.com###dol_article_wss-l_gam
+dengekionline.com###dol_article_wss-r_gam
+dengekionline.com##.gFooter
+dengekionline.com##.u-mtbS.gSlide
+dengekionline.com##.gEntry_article_relatedTags > p
+
+
+! 2023-09-16 https://s.response.jp
+s.response.jp###dangling374692 > .link
+
+! 2023-09-16 https://www.chosunonline.com
+www.chosunonline.com##.sec_headline_popular
+www.chosunonline.com##.com_ct_wrp
+www.chosunonline.com##.footer
+www.chosunonline.com##section.base
+
+
+! 2023-09-16 https://jp.reuters.com
+jp.reuters.com##.site-header__main-bar__3jof3
+
+
+
+
+! 2023-09-26 https://realsound.jp
+realsound.jp##.entry-single > .related-entry-list
+realsound.jp###interviewPost
+realsound.jp###pickupPOPIN
+realsound.jp###latestPost
+realsound.jp##.addUnderLine.thumbnail-size.ise-change-height-on-pc.ise-wt-101.columnDivide
+realsound.jp##.site-header
+realsound.jp###sidebar
+realsound.jp##.site-footer
+
+
+! 2023-09-28 https://www.phileweb.com
+www.phileweb.com##.partial
+www.phileweb.com##.full
+www.phileweb.com###sp_article_undertitle_wrapper
+www.phileweb.com###footer
+www.phileweb.com##footer
+www.phileweb.com##.webWrapper
+www.phileweb.com##.awardWrapper
+www.phileweb.com##.clearfix.magazineWrapper
+www.phileweb.com###closeupBox
+www.phileweb.com###closeupNewBox
+www.phileweb.com###relatedArticles
+www.phileweb.com###footerMagazine
+
+! 2023-09-28 https://www.businessinsider.jp
+www.businessinsider.jp##.f-header
+www.businessinsider.jp##.--walljack.f-content-secondary
+
+! 2023-10-12 https://times.abema.tv
+times.abema.tv##.c-footer
+times.abema.tv##.l-side
+
+
+
+
+! Google サジェスト・他のキーワードにNGフィルタを入れる
+google.com,google.co.jp##.G43f7e > li.sbct:has-text(/(炎上||彼[氏女]|結婚|妊娠|引退|嫌い|顔バレ|まずい|つまらない|)/)
+google.com,google.co.jp##.AJLUJb > div:has-text(/(炎上|彼[氏女]|結婚|妊娠|引退|嫌い|顔バレ|まずい|つまらない|)/)
+
+! Google 「他の人はこちらも検索」非表示
+! google.com,google.co.jp##:matches-path(/^/search\?/) span:has-text(/^(他の人はこちらも検索|関連キーワード|他のキーワード)$/):upward(div[data-hveid][data-ved])
+
+
+
+! 2021-08-26 https://www.mildom.com
+www.mildom.com##.attention-panel
+
+! 2023-04-17 http://www.youtubemultiplier.com
+www.youtubemultiplier.com###top-title
+
+
+! 2021-09-25 https://erogazou-s.com
+erogazou-s.com##.i2i_header1.rectangle
+erogazou-s.com##.adnex.slide
+erogazou-s.com##.i2i_header2.rectangle
+erogazou-s.com##.i2i_content_footer.rectangle
+erogazou-s.com##.i2i_middle1.rectangle
+
+
+
+
+
+! 2023-05-08 http://kashimayu.starfree.jp
+kashimayu.starfree.jp##h6
+
+! 2023-07-07 https://realsound.jp
+realsound.jp##.col-aside
+
+! 2023-07-07 https://cinema.ne.jp
+cinema.ne.jp##.head-top-wrap
+cinema.ne.jp##.head-bot-wrap
+cinema.ne.jp##.sticky-height.contRight
+
+! 2023-07-07 https://thetv.jp
+thetv.jp##div.sidebarcontents:nth-of-type(8)
+thetv.jp##div.sidebarcontents:nth-of-type(7)
+thetv.jp##div.sidebarcontents:nth-of-type(1)
+
+! 2023-07-10 https://www.animatetimes.com
+www.animatetimes.com##div.visible-lg.visible-md.c-banner-aside > div > .inject-link
+www.animatetimes.com##div.l-box:nth-of-type(3)
+www.animatetimes.com##div.l-box:nth-of-type(6)
+
+! 2023-09-04 https://kuruma-news.jp
+kuruma-news.jp###side-fix
+
+! 2023-09-05 https://studyhacker.net
+studyhacker.net###box2
+studyhacker.net###top-editarea
+
+! 2023-09-05 https://front-row.jp
+front-row.jp##.centeringchild-v
+front-row.jp###header-bgs
+front-row.jp##.customized.justify-content-flex-start.flex-mobile.flex-container.spaceless.flexible.flex-order-2.flex-item
+front-row.jp###header-container > .flex-mobile.flex-container
+
+! 2023-09-05 https://www.businessinsider.jp
+www.businessinsider.jp##.f-header-container
+www.businessinsider.jp##.f-header
+www.businessinsider.jp##.--upper.f-content > .f-content-container > .--walljack.f-content-secondary
+
+! 2023-09-05 https://gadgets.evolves.biz
+gadgets.evolves.biz##div#custom_html-70.widget_custom_html.widget_text > .custom-html-widget.textwidget > div
+
+! 2023-09-05 https://www.mdn.co.jp
+www.mdn.co.jp##header.pc
+
+! 2023-09-25 https://dengekionline.com
+dengekionline.com##.gSubNav
+dengekionline.com##.gNav
+dengekionline.com##aside.u-mtbM.gRanking:nth-of-type(1)
+dengekionline.com##.gBody_col-left.gBody_col
+dengekionline.com##.gBody_col-right.gBody_col
+
+! 2023-10-02 https://www.phileweb.com
+www.phileweb.com##.full
+www.phileweb.com##.partial
+
+! 2023-10-13 https://jmanga.net
+jmanga.net###page_0
+jmanga.net##.footer
+
+! 2023-10-13 https://rawmangaraw.com
+rawmangaraw.com##.block-box.new-list-box
+
+! 2023-10-17 https://klmanga.io
+klmanga.io##.text-center.copyright
+
+
+www.twitch.tv##.disclosure-tool
+
+! 2023-10-24 https://www.drone.jp
+www.drone.jp###rb-privacy
+
+! 2023-11-03 https://news.biglobe.ne.jp
+news.biglobe.ne.jp###right-side-inner
+news.biglobe.ne.jp###footer
+news.biglobe.ne.jp###relatedsearches1
+
+! 2023-11-03 https://www.sankei.com
+www.sankei.com##.grid.\|.story-card-feed
+www.sankei.com##.padding-bottom.margin-bottom-sm.small.blue.story-card-header
+www.sankei.com##.footer__links-container
+www.sankei.com##.footer__copyright
+www.sankei.com##.footer__links
+
+! 2023-11-03 https://www.businessinsider.jp
+www.businessinsider.jp##.--walljack.f-content-secondary
+www.businessinsider.jp##div.f-content > .f-content-container
+www.businessinsider.jp##.f-footer-container
+
+! 2023-11-03 https://webnewtype.com
+webnewtype.com##.c-layout-side
+webnewtype.com##.g-header
+webnewtype.com###footer
+
+
+
+
+
+! 2023-11-06 https://gadgets.evolves.biz
+gadgets.evolves.biz###headbox
+gadgets.evolves.biz###footer
+gadgets.evolves.biz###mybox
+gadgets.evolves.biz###scrollad
+gadgets.evolves.biz###side
+gadgets.evolves.biz##.clearfix.p-navi
+gadgets.evolves.biz##.point-in
+gadgets.evolves.biz##aside
+gadgets.evolves.biz##.st-sns-singular.sns
+
+! 2023-11-14 https://s-max.jp
+s-max.jp##.blog-title-outer
+s-max.jp###extra > .column-inner
+s-max.jp###sub
+s-max.jp###article-options
+s-max.jp###ldblog_related_articles_ceaf6e2c
+s-max.jp##.article-post
+s-max.jp##.footer-outer
+s-max.jp##.pager-inner
+
+! 2023-11-14 https://www.nicovideo.jp
+www.nicovideo.jp##.RightSideContainer
+
+! 2023-11-27 https://www.sankei.com
+www.sankei.com##.grid__col--xs-12.grid__col--sm-12.grid__col--md-12.grid__col--lg-12.layout-footer-spacing.grid__column
+
+
+
+! 2023-11-29 https://shuchi.php.co.jp
+shuchi.php.co.jp##.fixed.site_header
+
+! 2023-11-30 https://nazology.net
+nazology.net##.lazyloaded.size-pc-full.attachment-pc-full
+nazology.net##.site-header
+nazology.net##.post-first-half__side
+nazology.net##.post-latter-half__side
+nazology.net##.article-list--popular.article-list
+nazology.net##.site-footer
+nazology.net##.site-jumper
+nazology.net##.sns-links
+nazology.net##.article-list--pickup.article-list
+nazology.net##.article-list--special.article-list
+
+
+
+! 2023-11-30 https://gadget.phileweb.com
+gadget.phileweb.com##.fixed.l--header
+
+! 2023-12-15 https://www.phileweb.com
+www.phileweb.com###footer
+www.phileweb.com##footer
+www.phileweb.com##.awardWrapper
+www.phileweb.com##.webWrapper
+www.phileweb.com###footerMagazine > .inner
+www.phileweb.com###relatedArticles
+www.phileweb.com###closeupNewBox
+www.phileweb.com###closeupBox
+www.phileweb.com###ranking
+
+! 2023-12-15 https://www.rakumachi.jp
+www.rakumachi.jp##.footterComponent
+
+! 2023-12-17 https://www.appbank.net
+www.appbank.net###header
+
+! 2023-12-29 https://motor-fan.jp
+motor-fan.jp###icon
+
+! 2023-12-30 https://aismiley.co.jp
+aismiley.co.jp##.header
+aismiley.co.jp##.likeButtonFloat
+aismiley.co.jp##.sidebar--magazine.sidebar
+aismiley.co.jp##.footer
+aismiley.co.jp##.section--contact
+aismiley.co.jp##.magazineConnect
+aismiley.co.jp##.section--attention--common.section--attention.section
+aismiley.co.jp##.contents__magazine--detail.contents__magazine > .mailmagazine
+
+! 2024-01-12 https://codezine.jp
+codezine.jp##.l-header
+codezine.jp##.col-md-4.l-sidebar
+
+! 2024-01-18 https://nyaa.land
+nyaa.land##body > div:nth-of-type(1)
+
+
+
+
+! 2024-01-24 https://courrier.jp
+courrier.jp##header
+courrier.jp##.header_submenu.header_bg_blue
+courrier.jp##.breadcrumbs_area
+
+! 2024-01-25 https://news.denfaminicogamer.jp
+news.denfaminicogamer.jp##.topics.recent.row.articleContent
+news.denfaminicogamer.jp###subColumn
+news.denfaminicogamer.jp##footer
+news.denfaminicogamer.jp###mainColumn > .recent.column.articleContent
+news.denfaminicogamer.jp###pickup
+
+! 2024-01-29 https://courrier.jp
+courrier.jp##.fixed_sns_menu
+
+! 2024-01-31 https://anidex.piracyproxy.net
+anidex.piracyproxy.net###cookieConsentUR99472
+
+! 2024-01-31 https://kissmanga.123proxy.me
+kissmanga.123proxy.me###cookieConsentUR99472
+
+! 2024-02-01 https://codezine.jp
+codezine.jp##.l-footer
+
+
+
+
+! 2024-02-01 https://crea.bunshun.jp
+crea.bunshun.jp###header
+crea.bunshun.jp##.right-banner
+
+! 2024-02-02 https://crea.bunshun.jp
+crea.bunshun.jp##.module-ranking-01
+crea.bunshun.jp##.module-from-editors
+crea.bunshun.jp##.module-comic-essay
+crea.bunshun.jp##.html.module-magazine-and-book
+crea.bunshun.jp###footer
+
+
+
+! 2024-02-09 https://active.nikkeibp.co.jp
+active.nikkeibp.co.jp##.globalNavi
+active.nikkeibp.co.jp##.l-header_container
+active.nikkeibp.co.jp##.l-main_secondary.asideRight
+active.nikkeibp.co.jp##.l-footer
+active.nikkeibp.co.jp##section.l-section.recommend
+
+! 2024-02-11 https://natalie.mu
+natalie.mu##.NA_globalnav_wrapper
+natalie.mu##aside
+natalie.mu##.NA_article_link.GAE_relatedArtistNews
+natalie.mu##.NA_section-list.NA_section.GAE_hotNews
+natalie.mu##.NA_section-list.NA_section.GAE_latestNews
+natalie.mu##.NA_section-list.NA_section.GAE_column
+natalie.mu##.NA_section-list.NA_section.GAE_seasonAnime
+natalie.mu##.NA_section-list.NA_section.GAE_tag406News
+natalie.mu##.NA_section-list.NA_section.GAE_tag418News
+natalie.mu##.NA_section-list.NA_section.GAE_hotMedia
+natalie.mu##.NA_section-list.NA_section.GAE_globalHotNews
+natalie.mu##.NA_overview
+natalie.mu##.NA_footer
+
+! 2024-02-11 https://touchlab.jp
+touchlab.jp##.td-container-wrap.td-logo-wrap-full.td-banner-wrap-full
+touchlab.jp##.tdc-header-wrap
+touchlab.jp##.td-ss-main-sidebar
+touchlab.jp##.tdc-footer-wrap
+
+! 2024-02-12 https://www.capa.co.jp
+www.capa.co.jp##.c-breadcrumb.p-breadcrumb
+www.capa.co.jp##.l-header--fixed.l-header
+www.capa.co.jp##.l-secondary
+www.capa.co.jp###banner_fixed
+www.capa.co.jp##.l-footer
+www.capa.co.jp##.single_sec01
+www.capa.co.jp##.u-clearfix.c-nav01.p-nav01
+www.capa.co.jp##.page_top_btn
+
+! 2024-02-17 https://realsound.jp
+realsound.jp###csw_block
+realsound.jp##.site-footer
+realsound.jp###latestPost
+realsound.jp###pickupPOPIN
+realsound.jp###interviewPost
+realsound.jp##.site-header
+
+! 2024-02-19 https://nikkan-spa.jp
+nikkan-spa.jp##.category-list
+nikkan-spa.jp###header
+nikkan-spa.jp##.right
+nikkan-spa.jp##.main-color.footer
+nikkan-spa.jp###popular-series
+nikkan-spa.jp##div.under-post > .textwidget
+nikkan-spa.jp##.writer-box
+
+! 2024-02-19 https://nikkan-spa.jp
+nikkan-spa.jp##.popular-series
+
+! 2024-02-22 https://www.bbc.com
+www.bbc.com##header
+www.bbc.com##.ebmt73l0.bbc-fm4knk.e1j2237y2
+www.bbc.com##.e1njnjcp0.bbc-1lvqtkx
+www.bbc.com##.e1l4j50z3.bbc-1u4iszl.e1i5g6i70
+
+! 2024-02-23 https://jp.reuters.com
+jp.reuters.com##.site-header__inner-sticky__1fm3o.site-header__inner__3w4vv
+jp.reuters.com##.article__read-next__Kjxdw
+jp.reuters.com##.regular-article-layout__related__kSJRx
+jp.reuters.com##footer
+jp.reuters.com##.sign-off__text__PU3Aj.body__extra_small_body__3QTYe.body__full_width__ekUdw.text__extra_small__1Mw6v.text__regular__2N1Xr.text__dark-grey__3Ml43.text__text__1FZLe
+jp.reuters.com##.article-body__element__2p5pI.body__small_body__2vQyf.body__base__22dCE.text__small__1kGq2.text__regular__2N1Xr.text__dark-grey__3Ml43.text__text__1FZLe
+
+! 2024-03-12 https://www.gourmetbiz.net
+www.gourmetbiz.net##header
+www.gourmetbiz.net###ad-slot-adsense
+www.gourmetbiz.net##.adbox
+www.gourmetbiz.net##.clearfix.p-navi
+www.gourmetbiz.net##footer
+
+
+
+
+
+! 2024-03-17 https://wirelesswire.jp
+wirelesswire.jp##.responsive.Header
+wirelesswire.jp##.l-contents__right
+wirelesswire.jp##.Footer
+wirelesswire.jp##.h-mb30.h-mt30.is--type1.block2
+wirelesswire.jp##.h-mt30.is--type1.block8
+wirelesswire.jp##.h-mt30.is--type1.block9
+wirelesswire.jp###mail_magazine_area
+
+! 2024-03-26 https://eki-docomokirai.hatenablog.com
+eki-docomokirai.hatenablog.com###globalheader-container
+eki-docomokirai.hatenablog.com###blog-title
+eki-docomokirai.hatenablog.com##.hatena-module-profile.hatena-module
+eki-docomokirai.hatenablog.com##div.hatena-module-html.hatena-module:nth-of-type(3)
+eki-docomokirai.hatenablog.com##div.hatena-module-html.hatena-module:nth-of-type(7)
+eki-docomokirai.hatenablog.com##.goog-te-gadget.skiptranslate
+
+! 2024-03-28 https://qiita.com
+qiita.com##.style-1y0vgst
+
+! 2024-03-28 https://xtech.nikkei.com
+xtech.nikkei.com###header
+xtech.nikkei.com###stickyArea1
+xtech.nikkei.com##.l-main_secondary.asideRight
+xtech.nikkei.com##.globalNavi
+xtech.nikkei.com##.l-footer
+xtech.nikkei.com##section.l-section:nth-of-type(10)
+xtech.nikkei.com##section.l-section:nth-of-type(9)
+xtech.nikkei.com##section.l-section:nth-of-type(8)
+xtech.nikkei.com##section.l-section:nth-of-type(7)
+xtech.nikkei.com##section.l-section:nth-of-type(6)
+xtech.nikkei.com##section.l-section:nth-of-type(5)
+xtech.nikkei.com##section.l-section:nth-of-type(3)
+
+! 2024-04-02 https://hybrid.sonviet.net
+hybrid.sonviet.net##.mb-3.content-text.lh-16.font-12x
+
+! 2024-04-02 https://us.spoilerxz.com
+us.spoilerxz.com##.mb-3.content-text.lh-16.font-12x
+
+! 2024-04-02 https://uk.spoilerxz.com
+uk.spoilerxz.com##.font-12x.lh-16.content-text
+uk.spoilerxz.com##div.over-container.p-lg-3.p-2.border.bg-white:nth-of-type(2)
+uk.spoilerxz.com##.text-white.font-9x.py-3.bg-primary
+
+! 2024-04-04 https://wisdom.nec.com
+wisdom.nec.com###ly-cookie
+wisdom.nec.com###ly-headerWrapper
+
+! 2024-04-04 https://www.sankei.com
+www.sankei.com##.fixed.flex.width-full.global-nav-container
+www.sankei.com##.justify-center.flex.grid__col--xs-12.grid__col--sm-12.grid__col--md-12.grid__col--lg-12.layout-header-spacing.grid_nowrap.grid__column.grid
+www.sankei.com##.sidebar-items
+
+
+
+! 2024-04-23 https://dl-raw.se
+dl-raw.se##.gridlane-box.comments-area
+dl-raw.se##.widget_text.gridlane-widget-box.widget.gridlane-side-widget
+dl-raw.se##.gridlane-site-description
+dl-raw.se##.gridlane-tabbed-wrapper
+
+! 2024-05-10 https://chimolog.co
+! 広告掲載表示
+chimolog.co##.fair_labeling
+
+! kadobun
+kadobun.jp##.js-header-height-sp.p-header
+kadobun.jp##.is-fixed.header-fixed.js-header-height-pc.acms-block-xl.acms-block-lg.acms-block-md.acms-hide.js-header.p-header-fixed
+
+! 2024-05-18 https://ncode.syosetu.com
+ncode.syosetu.com##.pageTop--up.pageTop
+
+!未確認
+! 2024-05-05 https://www3.nhk.or.jp
+!www3.nhk.or.jp##.c-header--post.c-header
+
+! 2024/07/01 https://itest.5ch.net
+itest.5ch.net###floatingBottomAdsMain
+
+
+! 2023-11-05 https://daily-gadget.net
+daily-gadget.net###header
+daily-gadget.net###navi
+daily-gadget.net###sidebar
+! 本文 youtube, twitterバナー
+daily-gadget.net##.widget_media_image.widget-over-article
+daily-gadget.net##.comment-respond
+daily-gadget.net##.main-footer
+! youtube
+daily-gadget.net##h3:has(strong:has-text("デイリーガジェットYouTubeチャンネル！"))
+daily-gadget.net##p:has-text("デイリーガジェットでは、UMPC（超小型PC）、スマホ、タブレット、レトロPCをはじめとして、商品のレビューやインタビューの動画を、YouTubeに”ほぼ”毎日公開しています。")
+daily-gadget.net##p:has-text("デイリーガジェット動画部のVTuberである風林火山朱音とケンがゆるい感じにレポートしています。")
+daily-gadget.net##p:has(span:has(strong:has-text("ぜひ↓からチャンネル登録をお願いします！")))
+daily-gadget.net##p:has(a[href="https://www.youtube.com/channel/UCFjFjyDXUG9mDGHCxNZ5yuQ"])
