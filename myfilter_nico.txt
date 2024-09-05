@@ -1,7 +1,7 @@
 ! Title: My Filter for niconico
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20240903-3
+! Version: 20240905
 
 ! ----- 2024-08-05 サイバー攻撃復旧後 -----
 ! ----- 動画ページ -----
@@ -30,8 +30,6 @@ nicovideo.jp##a[data-anchor-area="related_content,recommendation"]:has(span:has-
 nicovideo.jp##.shadow_base.z_sticky.top_\[\{sizes\.commonHeader\.fixedHeight\}\].pos_sticky.text-layer_mediumEm.bg_layer\.surfaceHighEm.pr_base.pl_x3.py_base.h_webHeader\.height.items_center.d_flex:style(position: static !important)
 ! 検索ヘッダーのフィードバックボタン
 nicovideo.jp##.d_flex.gap_base.items_center a[href^="/feedback/video_watch"]
-! サイドメニュー プレミアム限定動画
-nicovideo.jp##nav[aria-label="サイドメニュー"] a[title="プレミアム限定動画"]
 
 
 ! ----- ヘッダー -----
@@ -51,6 +49,12 @@ nicovideo.jp##[href^="https://account.nicovideo.jp/premium/register?site="]
 nicovideo.jp##.nico-CommonHeaderRoot .common-header-6zywm
 
 
+! /watch /series サイドメニュー プレミアム限定動画
+nicovideo.jp##.simplebar-content a[href^="/tag/プレミアム限定動画"]
+
 ! /mypage プレミアム会員登録ボタン
 nicovideo.jp##[href^="https://premium.nicovideo.jp/payment/registration"]
+
+! /series SNSボタン
+nicovideo.jp##.SeriesAdditionalContainer-share
 
