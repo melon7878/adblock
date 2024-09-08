@@ -17,23 +17,27 @@
 ! gizmodo.jp
 ! 例外：EC購入枠 @ AdGuard JP
 gizmodo.jp#@#.araklet
-! 固定ヘッダー -> !gizmodo.jp##.is-fixed.h-body
-! ヘッダー
+! ヘッダー：PC
 gizmodo.jp###globalNav
+! ヘッダー：モバイル：ヘッダー自体は表示。追従を消す
+gizmodo.jp##.h-body-header.is-fixed
+! 右サイド
 gizmodo.jp##.l-generalContent-secondary
-! LATEST NEWS。→だと記事一覧でページ選択できない  !gizmodo.jp##div.l-generalContent
-!gizmodo.jp##.p-recommend:upward(div.l-generalContent)
-gizmodo.jp##h2:has-text(LATEST NEWS):upward(3)
-!gizmodo.jp##div.l-heroContent !ad枠 @ AdGuard JP !##.ad-banner
+! LATEST NEWS：PC
+gizmodo.jp##div.p-archive:has(h2.p-archive-heading:has-text("LATEST NEWS")):upward(div.l-generalContent)
+! LATEST NEWS：モバイル
+gizmodo.jp##section.p-headCard1Col1:has(h2.p-headCard1Col1-title:has-text("LATEST NEWS"))
+! 広告枠 @ AdGuardJP：##.ad-banner
+!gizmodo.jp##div.l-heroContent
+! フッター
 gizmodo.jp##.l-videoArea
-gizmodo.jp###footer
+gizmodo.jp##.l-footer
 ! 投票
 gizmodo.jp##.p-post-survey
 gizmodo.jp##.p-post-survey-share
 
 ! gigazine.net
-gigazine.net###header
-!gigazine.net###header-social-button-box !ヘッダー内
+gigazine.net###header-social-button-box
 gigazine.net###latest
 gigazine.net###sub
 ! Discordフォーラム勧誘
@@ -134,6 +138,11 @@ biz-journal.jp###aside
 biz-journal.jp###topPickup
 biz-journal.jp###relatedCatchText
 biz-journal.jp###footer
+! モバイル
+biz-journal.jp##header.global:style(margin-bottom: 0px !important)
+biz-journal.jp##nav.tab
+biz-journal.jp###footerSns
+biz-journal.jp###footerNav
 
 ! japan.cnet.com
 japan.cnet.com###header-wrap
@@ -162,7 +171,13 @@ japan.zdnet.com##section > .pg-mod > h3 > span:has-text(CNET Japan Top  Story):u
 japan.zdnet.com##footer
 
 ! trafficnews.jp
-trafficnews.jp##header
+! ヘッダー：PC
+trafficnews.jp##.header-search-form
+trafficnews.jp##.header-menu.header-menu-no-signed
+trafficnews.jp##.header-nav-global
+! モバイル
+trafficnews.jp##ul.social-button-sp-six-flex
+! 共通
 trafficnews.jp###side-column
 trafficnews.jp##.article-middle-link
 trafficnews.jp###comments
@@ -187,7 +202,7 @@ hypergadget.jp##.google-ads:upward(div)
 
 ! dailyshincho.jp デイリー新潮
 ! ヘッダー
-dailyshincho.jp##.l-header__contents
+! dailyshincho.jp##.l-header__contents
 dailyshincho.jp##.c-list-article--border
 ! 右サイドバー
 dailyshincho.jp##.l-contents__sub
