@@ -1,7 +1,7 @@
 ! Title: My Filter for niconico
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20240905
+! Version: 20240908
 
 ! ----- 2024-08-05 サイバー攻撃復旧後 -----
 ! ----- 動画ページ -----
@@ -16,8 +16,11 @@ nicovideo.jp##.gap_base.flex-wrap_wrap.d_flex.pos_relative button:has-text("タ�
 ! プレイヤー設定 プレミアム機能 /スキップ秒数|レジューム再生|反転再生/
 nicovideo.jp##.p_base.items_center.justify_space-between.d_flex:has(span:has-text(/スキップ秒数|レジューム再生|反転再生/))
 ! コメント投稿エリア（フルスク）
-! class="d_flex gap_x3 justify_space-between items_center box_content-box h_watchActionbar.height p_base bg_layer.background"
+!   class="d_flex gap_x3 justify_space-between items_center box_content-box h_watchActionbar.height p_base bg_layer.background"
+!   class="d_flex gap_x3 jc_space-between ai_center bx-s_content-box h_watchActionbar.height p_base bg-c_layer.background"
 nicovideo.jp##.bg_layer\.background.p_base.h_watchActionbar\.height.box_content-box.items_center.justify_space-between.gap_x3.d_flex
+nicovideo.jp##.d_flex.gap_x3.jc_space-between.ai_center.bx-s_content-box.h_watchActionbar\.height.p_base.bg-c_layer\.background
+
 ! おすすめの有料動画(dアニ以外)
 nicovideo.jp##a[data-anchor-area="related_content,recommendation"]:has(span:has-text("有料")):not(:has(p:has-text("dアニメストア ニコニコ支店")))
 ! プレイリストの有料動画(dアニ以外)
