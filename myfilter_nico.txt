@@ -1,20 +1,22 @@
 ! Title: My Filter for niconico
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20240908
+! Version: 20240912
 
 ! ----- 2024-08-05 サイバー攻撃復旧後 -----
 ! ----- 動画ページ -----
+! @ジャンプを回避：効かない
+!nicovideo.jp##+js(json-prune-fetch-response, data.threads.0.comments.*.vposMs, , propsToMatch, public.nvcomment.nicovideo.jp/v1/threads)
 ! コメント投稿エリアといいねとかのボタン群：あとで見るやマイリス登録の入った三点メニューも消える
-!nicovideo.jp##.h_watchActionbar\.height.box_content-box.items_center.justify_space-between.gap_x3.d_flex
+!nicovideo.jp##.grid-area_\[player\] button[aria-label="コメント投稿ボタン"]:upward(3)
 ! コメント投稿エリア
-nicovideo.jp##.pos_relative.text-layer_lowEm.h_x5.w_100\%.items_center.d_flex
+nicovideo.jp##.grid-area_\[player\] button[aria-label="コメント投稿ボタン"]:upward(2)
 ! 動画下ボタン /共有|宣伝|ギフト/
-nicovideo.jp##.overflow_hidden.min-w_0.shrink_1 button:has-text(/共有|宣伝|ギフト/)
+nicovideo.jp##button[data-element-area="video_action"]:has-text(/共有|宣伝|ギフト/)
 ! タグ編集（プレミアム機能）
-nicovideo.jp##.gap_base.flex-wrap_wrap.d_flex.pos_relative button:has-text("タグ編集")
+nicovideo.jp##button:has-text("タグ編集")
 ! プレイヤー設定 プレミアム機能 /スキップ秒数|レジューム再生|反転再生/
-nicovideo.jp##.p_base.items_center.justify_space-between.d_flex:has(span:has-text(/スキップ秒数|レジューム再生|反転再生/))
+nicovideo.jp##div[data-nvpc-scope="watch-floating-panel"] span:has-text(/スキップ秒数|レジューム再生|反転再生/):upward(2)
 ! コメント投稿エリア（フルスク）
 !   class="d_flex gap_x3 justify_space-between items_center box_content-box h_watchActionbar.height p_base bg_layer.background"
 !   class="d_flex gap_x3 jc_space-between ai_center bx-s_content-box h_watchActionbar.height p_base bg-c_layer.background"
@@ -30,9 +32,9 @@ nicovideo.jp##a[data-anchor-area="related_content,recommendation"]:has(span:has-
 !nicovideo.jp##a[data-anchor-area="playlist"]:has(span:has-text("有料")):not(:has(p:has-text("dアニメストア ニコニコ支店"))):if(:xpath(../../../../../../header/div/div/p):has-text("キーワード検索"))
 
 ! 検索ヘッダーの追従を解除
-nicovideo.jp##.shadow_base.z_sticky.top_\[\{sizes\.commonHeader\.fixedHeight\}\].pos_sticky.text-layer_mediumEm.bg_layer\.surfaceHighEm.pr_base.pl_x3.py_base.h_webHeader\.height.items_center.d_flex:style(position: static !important)
+nicovideo.jp##input[placeholder="キーワードで検索"]:upward(header):style(position: relative !important)
 ! 検索ヘッダーのフィードバックボタン
-nicovideo.jp##.d_flex.gap_base.items_center a[href^="/feedback/video_watch"]
+nicovideo.jp##header a[href^="/feedback/video_watch"]
 
 
 ! ----- ヘッダー -----
