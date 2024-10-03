@@ -1,7 +1,7 @@
 ! Title: My Filter for niconico
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20240912
+! Version: 20241003
 
 ! ----- 2024-08-05 サイバー攻撃復旧後 -----
 ! ----- 動画ページ -----
@@ -11,7 +11,7 @@
 !nicovideo.jp##.grid-area_\[player\] button[aria-label="コメント投稿ボタン"]:upward(3)
 ! コメント投稿エリア
 nicovideo.jp##.grid-area_\[player\] button[aria-label="コメント投稿ボタン"]:upward(2)
-! 動画下ボタン /共有|宣伝|ギフト/
+! 動画下ボタン /共有|ニコニ広告|ギフト/
 nicovideo.jp##button[data-element-area="video_action"]:has-text(/共有|宣伝|ギフト/)
 ! タグ編集（プレミアム機能）
 nicovideo.jp##button:has-text("タグ編集")
