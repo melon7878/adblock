@@ -3,489 +3,6 @@ www.google.com###before-appbar + #lb[style="visibility: visible;"]:has(location-
 www.google.com##html.TaoyYc:style(overflow: auto !important;)
 
 !---------------------------------------------------------------------------!
-!-------------- JavaScript -------------------------------------------------!
-!---------------------------------------------------------------------------!
-! 2024-05-27
-
-! bloomberg.co.jp
-bloomberg.co.jp###bb-that
-bloomberg.co.jp###navi
-bloomberg.co.jp##.touts
-bloomberg.co.jp##.bb-global-footer
-||assets.bwbx.io/s3/javelin/public/javelin/js/transporter/transporter-51fabfd75c.js^$script,inline-script,important
-
-! forbesjapan.com
-forbesjapan.com##header
-forbesjapan.com##.cont-right
-! 「著者フォロー」「記事を保存」ボタン
-forbesjapan.com##.follow-btns
-forbesjapan.com##.article-detail-follow.follow_us
-forbesjapan.com##.article-detail-list
-forbesjapan.com##.footer
-||forbesjapan.com/asset/frontend/dist/functions-standard-article-full.bundle.js^$script,inline-script,important
-! 未確認
-forbesjapan.com##[href="/30under30"]
-
-! cnn.co.jp
-cnn.co.jp###nav-global
-cnn.co.jp##.pg-container-side
-! こんな話題も
-!cnn.co.jp###related_stories > h2:has-text(こんな話題も):upward(1)
-! 「<topic>」のニュース。sectionをいれないと、記事一覧で誤爆
-cnn.co.jp##section > h2:has-text(のニュース):upward(1)
-! Video
-cnn.co.jp##section > .story-video-btm:upward(1)
-! Photo
-cnn.co.jp##section > .story-photo-btm:upward(1)
-! 注目ニュース
-!cnn.co.jp##section > h2:has-text(注目ニュース):upward(1)
-cnn.co.jp##body > .pg-container
-cnn.co.jp##footer
-! メルマガ登録オーバーレイの非表示 @ cnn.co.jp/static/js/atlanta/common.js?1716349741
-cnn.co.jp##+js(addEventListener-defuser.js, DOMContentLoaded, CNN_MAIL_MAGAZIN)
-
-
-
-
-!---------------------------------------------------------------------------!
-!-------------- JavaScript end----------------------------------------------!
-!---------------------------------------------------------------------------!
-
-!---------------------------------------------------------------------------!
-!-------------- niconico ---------------------------------------------------!
-!---------------------------------------------------------------------------!
-! 2024-05-16
-
-! 動画が終わった後のニコニ貢献による提供 @ AdGuard Annoyances
-!||nicoad.nicovideo.jp/v1/contents/video/*/pickup_supporters
-
-! ----- 動画ページ -----
-! コメント入力欄
-nicovideo.jp##.ControllerBoxCommentAreaContainer
-
-! コメント上: いいねの部分を非表示にして、「マイリスト」と「共有」をコメント上に移動
-nicovideo.jp##.PlayerPanelContainer:style(top: 0px !important)
-nicovideo.jp##.MylistButton.VideoMenuContainer-button:style(top: 36px!important;left: 55px!important;z-index: 1!important;transform: scale(0.7);fill: #b2bac2!important)
-nicovideo.jp##.SharePanelVisibleActionButton:style(top: 36px!important;left: -175px!important;z-index: 1!important;transform: scale(0.8))
-nicovideo.jp##.SharePanelVisibleActionButton > svg:style(fill: #b2bac2!important)
-
-! コメント下「ギフト」を非表示
-nicovideo.jp##div.GiftSubEffectContainer
-
-! 動画上のタグ編集と黒帯を非表示
-! タグ
-nicovideo.jp##.TagContainer-area.TagContainer-TagEditButtonArea
-! 黒帯
-nicovideo.jp##.MainContainer-marquee
-
-! シークバーのプレビューを非表示
-nicovideo.jp##.SeekBarStoryboardPremiumLink
-
-! 動画設定のプレミアム機能を非表示
-nicovideo.jp##.PlayerOptionMenuItem.FlipMenuItem
-nicovideo.jp##.PlayerOptionMenuItem.ResumeMenuItem
-nicovideo.jp##.PlayerOptionMenuItem.SkipMenuItem
-nicovideo.jp##.PlayerOptionMenuGroup:has(.MarqueeMenuItem)
-nicovideo.jp##.PlayerOptionContainer:style(max-height:524px!important)
-nicovideo.jp##.PlaybackRateMenu-contents .PremiumRequirer
-
-! 動画下の要素をすべて非表示
-! 「コンテンツツリー」「関連コンテンツ」以下の部分と、フッターを非表示
-nicovideo.jp##.WatchAppContainer-main .BottomContainer
-nicovideo.jp##footer
-
-! チャンネル登録促しバナー
-nicovideo.jp##.NC-CreatorSupportAccepting-content
-
-
-! ----- 全体 -----
-! 上のタブを非表示
-! チャンネル、ブロマガ
-nicovideo.jp##.nico-CommonHeaderRoot [href^="https://ch.nicovideo.jp"]
-! アツマール
-nicovideo.jp##.nico-CommonHeaderRoot [href^="https://game.nicovideo.jp/atsumaru/"]
-! アプリ
-nicovideo.jp##.nico-CommonHeaderRoot [href^="http://app.nicovideo.jp"]
-! 静画
-!nicovideo.jp##.nico-CommonHeaderRoot [href^="https://seiga.nicovideo.jp"]
-! 実況
-nicovideo.jp##.nico-CommonHeaderRoot [href^="https://jk.nicovideo.jp"]
-! その他
-nicovideo.jp##.nico-CommonHeaderRoot > div > div > div:nth-of-type(1) > div
-!プレミアム会員登録
-nicovideo.jp##[href^="https://account.nicovideo.jp/premium/register?site="]
-! 通知アイコン
-nicovideo.jp##.nico-CommonHeaderRoot path[d^="M10.913 22c1.44"]:upward(4)
-
-
-! マイページのバナー
-nicovideo.jp##.RightSideContainer
-
-! Nアニメの右側
-anime.nicovideo.jp##._18XTj._1lNlv
-
-! その他
-nicovideo.jp##.NC-CreatorSupportAccepting-content.NC-Link
-nicovideo.jp##.OwnerNicoliveBannerContainer
-! www.nicovideo.jp##.LikeFieldContainer
-nicovideo.jp##.SeriesAdditionalContainer-share
-nicovideo.jp##.VideoIntroductionAreaContainer
-
-!---------------------------------------------------------------------------!
-!-------------- niconico end -----------------------------------------------!
-!---------------------------------------------------------------------------!
-
-!---------------------------------------------------------------------------!
-!-------------- YouTube ----------------------------------------------------!
-!---------------------------------------------------------------------------!
-! 2024-05-18
-
-! my comment section
-youtube.com###simple-box > .ytd-comments-header-renderer.style-scope
-
-! ---------- EX ----------
-! Tweak for YouTube 不具合修正
-!youtube.com##ytd-engagement-panel-section-list-renderer.style-scope.ytd-watch-flexy:has([target-id="engagement-panel-clip-create"])
-!youtube.com##ytd-engagement-panel-section-list-renderer.style-scope.ytd-watch-flexy:has([target-id="engagement-panel-structured-description"])
-!youtube.com##ytd-engagement-panel-section-list-renderer.style-scope.ytd-watch-flexy:has([target-id="engagement-panel-searchable-transcript"])
-youtube.com##ytd-engagement-panel-section-list-renderer.ytd-watch-flexy[target-id="engagement-panel-clip-create"]
-youtube.com##ytd-engagement-panel-section-list-renderer.ytd-watch-flexy[target-id="engagement-panel-structured-description"]
-youtube.com##ytd-engagement-panel-section-list-renderer.ytd-watch-flexy[target-id="engagement-panel-searchable-transcript"]
-
-youtube.com##ytd-engagement-panel-section-list-renderer.ytd-watch-flexy[target-id="engagement-panel-comments-section"]
-
-!テスト用
-!youtube.com##ytd-engagement-panel-section-list-renderer.ytd-watch-flexy[target-id="engagement-panel-comments-section"]
-!youtube.com##ytd-engagement-panel-section-list-renderer.style-scope.ytd-watch-flexy[target-id="engagement-panel-comments-section"]
-
-
-! ---------- All ----------
-! 音声検索ボタン
-youtube.com###voice-search-button
-! /channel /watch.metadata 「メンバーになる」ボタン
-youtube.com###sponsor-button
-
-! 動画マウスオーバー時の「キューに追加」を非表示
-!youtube.com##ytd-thumbnail-overlay-toggle-button-renderer[aria-label="キューに追加"]
-
-! 動画タイトル右︙の「キューに追加」「報告」「オフライン」を非表示
-! youtube.com##ytd-menu-service-item-renderer:has-text(/キューに追加|報告/)
-youtube.com##ytd-menu-service-item-renderer:has-text(/報告/)
-youtube.com##ytd-menu-service-item-download-renderer:has-text(オフライン)
-
-! ---------- All.Sidebar ----------
-! sidebar 「ショート」欄を非表示
-youtube.com##+js(json-prune, items.0.guideSectionRenderer.items.1.guideEntryRenderer)
-youtube.com##ytd-guide-entry-renderer > [title="ショート"]
-
-! sidebar 探索と他のサービス
-!   どちらか一方だけ非表示にするの場合は/と|を消す 例：has-text(YouTube の他のサービス))
-youtube.com##ytd-guide-section-renderer:has(h3:has-text(/YouTube の他のサービス|探索/))
-! 設定
-youtube.com##ytd-guide-section-renderer:has([title="設定"])
-! 概要
-youtube.com##tp-yt-app-drawer #footer
-
-
-! ---------- Home | Search----------
-! /home ジャンル選択
-youtube.com##[page-subtype="home"] #header
-
-! /home 動画以外の枠(ショートなど)
-youtube.com##[page-subtype="home"] ytd-rich-section-renderer
-youtube.com##[page-subtype="subscriptions"] ytd-rich-section-renderer
-
-! /search 「他の人はこちらも視聴しています」や「ショート」
-!   一部表示させたい場合は ":not(ytd-video-renderer)" のカッコ内に表示させたいものを入れる
-!   再生リスト "ytd-radio-renderer"、映画 "ytd-movie-renderer"、チャンネル "ytd-channel-renderer"
-youtube.com##ytd-search ytd-item-section-renderer>#contents>:not(ytd-video-renderer,ytd-radio-renderer,ytd-channel-renderer),ytd-secondary-search-container-renderer
-
-
-! ---------- Channel ----------
-! /channel メンバーとショート、メンバー限定の欄
-! メンバー
-youtube.com##[page-subtype="channels"] ytd-recognition-shelf-renderer:upward(ytd-item-section-renderer)
-! ショート
-youtube.com##[page-subtype="channels"] ytd-reel-shelf-renderer:upward(ytd-item-section-renderer:not([use-height-hack]))
-! メンバー限定の動画
-youtube.com##[page-subtype="channels"] .badge-style-type-members-only:upward(ytd-item-section-renderer)
-
-
-! ---------- Watch ----------
-! ---------- Watch.Player ----------
-! 前へ次へ
-!www.youtube.com##.ytp-button.ytp-prev-button
-!youtube.com##.ytp-prev-button[data-title-no-tooltip="前へ"]
-!youtube.com##.ytp-prev-button[data-title-no-tooltip="もう一回見る"]
-youtube.com##.ytp-prev-button.ytp-button[title="前へ"]
-youtube.com##.ytp-prev-button.ytp-button[title="もう一回見る"]
-!youtube.com##.ytp-next-button[data-title-no-tooltip="次へ"]
-! 字幕(使えないとき)
-youtube.com##.ytp-subtitles-button[data-title-no-tooltip="字幕を利用できません"]
-! ミニプレイヤー(Iキーを押せばいい)
-youtube.com##.ytp-button.ytp-miniplayer-button
-
-! フルスクリーン時の「スクロールして表示」
-!youtube.com##.ytp-fullerscreen-edu-chevron
-youtube.com##.ytp-fullerscreen-edu-button
-
-! 動画終了前のおすすめ動画を非表示
-youtube.com##.ytp-ce-element
-
-! ---------- Watch.Metadata ----------
-! クリップ、Thanks、オフラインを非表示
-!youtube.com##ytd-button-renderer:has([aria-label="クリップ"])
-!youtube.com##ytd-button-renderer:has([aria-label="Thanks"])
-! 2023-12-13
-!youtube.com##.yt-spec-button-view-model:has-text(クリップ)
-!youtube.com##.yt-spec-button-view-model:has-text(Thanks)
-!youtube.com##button:has-text(クリップ)
-!youtube.com##button:has-text(Thanks)
-!youtube.com##.yt-spec-button-shape-next:has-text(クリップ)
-!youtube.com##.yt-spec-button-shape-next:has-text(Thanks)
-! 2024-02-02
-youtube.com##yt-button-view-model:has(button[aria-label="クリップ"])
-youtube.com##yt-button-view-model:has(button[aria-label="Thanks"])
-youtube.com##ytd-download-button-renderer
-
-! Youtube新UIを改善
-! タイトルのフォントサイズを小さく
-youtube.com###title .ytd-watch-metadata:style(font-weight: 400;font-size: 1.8rem;)
-! 概要欄の再生回数と投稿日時を薄く
-youtube.com###info.ytd-watch-metadata:style(color: var(--yt-spec-text-secondary)!important)
-! 概要欄の「もっと見る」と「一部を表示」を薄く
-youtube.com##tp-yt-paper-button#expand:style(color: var(--yt-spec-text-secondary)!important;font-size: 1.3rem!important)
-youtube.com##tp-yt-paper-button#collapse:style(color: var(--yt-spec-text-secondary)!important;font-size: 1.3rem!important)
-
-! 動画下の警告を非表示
-youtube.com###clarify-box
-
-! 概要欄の音楽情報と文字起こしを非表示
-! 音楽情報
-youtube.com##ytd-text-inline-expander > [slot="extra-content"]:has(ytd-video-description-music-section-renderer)
-! 文字起こし
-youtube.com##ytd-text-inline-expander > [slot="extra-content"]:has(ytd-structured-description-content-renderer)
-
-! 動画下のゲームなどの情報とグッズ欄を非表示
-! ゲーム
-youtube.com##ytd-metadata-row-container-renderer
-! グッズ
-youtube.com##ytd-merch-shelf-renderer
-
-! ---------- Watch.Comment ----------
-! コメントをワード指定して非表示
-youtube.com##ytd-comment-renderer:has-text(/プライベートAV|AVガール|動画見たら1万|学校でいじめられてます/)
-! 上のフィルタは非表示にしたコメントに返信があると「件の返信」だけ表示されたままになります。
-! そこで大元のコメントに指定したワードがあると、返信も含めて非表示になるフィルタです。返信のワードには反応しません。
-youtube.com###comment:has-text(/不倫|ハフポスト/i):upward(ytd-comment-thread-renderer)
-
-! ---------- Watch.Secondary ----------
-! chat 絵文字
-youtube.com###picker-buttons
-youtube.com###reaction-control-panel
-
-! /watch 関連動画
-www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
-!youtube.com##ytd-watch-next-secondary-results-renderer ytd-reel-shelf-renderer
-
-
-! ---------- Hidden Videos：Mix, Shorts, Word ----------
-! ミックスリスト
-! ホームのミックスリスト
-youtube.com##[page-subtype="home"] #video-title-link[title*="ミックス"][href$="start_radio=1"]:upward(ytd-rich-item-renderer)
-! 動画右のミックスリスト
-youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-radio-renderer
-! youtube musicのプレイリスト
-youtube.com##ytd-compact-playlist-renderer
-
-! ショート
-! ホーム
-youtube.com##[page-subtype="home"] #video-title-link:has-text(/#short/i):upward(ytd-rich-item-renderer)
-! 動画右
-youtube.com##ytd-watch-next-secondary-results-renderer [href^="/shorts/"]:upward(ytd-compact-video-renderer)
-! 登録チャンネル
-youtube.com##[page-subtype="subscriptions"] [href^="/shorts/"]:upward(ytd-grid-video-renderer)
-! 検索結果
-!youtube.com##ytd-search [href^="/shorts/"]:upward(ytd-video-renderer)
-
-! 見たくない動画をワード指定して非表示．
-!   「|Youtube/i))」このように/の後に「i」をつけると英語の大文字小文字を区別しなくなります。
-! ホーム
-youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(#video-title-link:has-text(/不倫|浮気|交際/))
-! 登録チャンネル
-youtube.com##[page-subtype="subscriptions"] ytd-grid-video-renderer:has(#video-title:has-text(/不倫|浮気|交際/))
-! 動画右
-youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(#video-title:has-text(/不倫|浮気|交際/))
-! 検索結果
-youtube.com##ytd-search ytd-video-renderer:has(#video-title:has-text(/不倫|浮気|交際/))
-! チャンネル名で動画を非表示
-! ホーム
-youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(ytd-channel-name:has-text(/不倫|浮気|交際/))
-! 登録チャンネル
-youtube.com##[page-subtype="subscriptions"] ytd-grid-video-renderer:has(ytd-channel-name:has-text(/不倫|浮気|交際/))
-! 動画右
-youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(ytd-channel-name:has-text(/不倫|浮気|交際/))
-! 検索結果
-youtube.com##ytd-search ytd-video-renderer:has(ytd-channel-name:has-text(/不倫|浮気|交際/))
-
-
-!----------- Misc ----------
-! YouTubeのホーム広告のスペースを削除する方法
-!   行内の他のビデオを拡大してその行を埋めるやり方
-!   ショート動画は削除されない
-!   表示動画サムネイル数は増えない
-!   https://kdroidwin.hatenablog.com/entry/2023/09/07/172430
-!youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row:style(--ytd-rich-grid-items-per-row: 1 !important;)
-!youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row>#contents, ytd-browse[page-subtype="home"] ytd-rich-grid-row ytd-rich-grid-media:style(max-width: unset !important;)
-
-!---------------------------------------------------------------------------!
-!-------------- YouTube end ------------------------------------------------!
-!---------------------------------------------------------------------------!
-
-!---------------------------------------------------------------------------!
-!-------------- Various ----------------------------------------------------!
-!---------------------------------------------------------------------------!
-! 2024-05-26
-
-! プライバシー・利用規約
-##.grecaptcha-badge
-
-! gizmodo.jp
-! 例外：EC購入枠 @ AdGuard JP
-gizmodo.jp#@#.araklet
-! 固定ヘッダーを除去。ヘッダー全消しは→ !gizmodo.jp###globalNav
-www.gizmodo.jp##.is-fixed.h-body
-gizmodo.jp##.l-generalContent-secondary
-! LATEST NEWS。→だと記事一覧でページ選択できない  !gizmodo.jp##div.l-generalContent
-gizmodo.jp##.p-recommend:upward(2)
-!gizmodo.jp##div.l-heroContent !ad枠 @ AdGuard JP !##.ad-banner
-gizmodo.jp##.l-videoArea
-gizmodo.jp###footer
-! 未確認
-!gizmodo.jp##.p-featureBanner
-!gizmodo.jp##.p-post-survey
-!gizmodo.jp##.p-post-survey-share
-!gizmodo.jp##.p-featureList
-
-! gigazine.net
-gigazine.net###header
-!gigazine.net###header-social-button-box !ヘッダー内
-gigazine.net###latest
-gigazine.net###sub
-! Discordフォーラム勧誘
-gigazine.net##p.preface:has-text(◆フォーラム開設中)
-! GIGAZINE シークレットクラブ への勧誘
-gigazine.net###banner-ef
-gigazine.net##.rlcontents-s
-gigazine.net###next-prev
-gigazine.net##footer
-
-! impress.co.jp
-impress.co.jp##header
-impress.co.jp###extra.nocontent
-impress.co.jp##.to-top-button
-impress.co.jp##footer
-! 未確認
-!impress.co.jp##.clear.fb-parts.hcenter.wp60.box-02
-
-! nichepcgamer.com
-nichepcgamer.com###head-in
-nichepcgamer.com##footer
-nichepcgamer.com###copyright
-! nichepcgamer.com###main > article > aside
-nichepcgamer.com###pnavi
-nichepcgamer.com###related-box
-! 人気記事
-nichepcgamer.com##.popular-posts.widget:upward(1)
-! 新着記事
-nichepcgamer.com###thk_recent_posts-2
-
-! smhn.info
-smhn.info##header
-!smhn.info###global
-!smhn.info###breadcrumbs
-smhn.info###futured_tagcloud
-smhn.info###secondary
-! こんな記事も読まれています
-smhn.info##.box.post-list:has(h3:has-text(こんな記事も読まれています))
-! Twitter
-smhn.info##.box.tweetbox
-! ～についての他の記事
-smhn.info##.box.post-list:has(h3:has-text(についての他の記事))
-smhn.info##footer
-
-! ascii.jp
-ascii.jp###header
-ascii.jp###sideL
-ascii.jp###sideR
-ascii.jp##.sbmV3
-ascii.jp###clubreco
-ascii.jp###footer
-
-! weekly.ascii.jp
-weekly.ascii.jp##header
-weekly.ascii.jp##.wrap__category
-weekly.ascii.jp##main > aside.ads
-weekly.ascii.jp##.snsFollow
-weekly.ascii.jp##section.article__body > div.returnCat
-weekly.ascii.jp##section.bottom__articleList
-weekly.ascii.jp##section.article__footer
-weekly.ascii.jp###footerFixed
-
-! wired.jp, wired.com
-wired.jp,wired.com##div.PersistentTopWrapper-ecjesM.gywviM.persistent-top > header
-! サムネイル
-wired.jp,wired.com##div[data-testid="ContentHeaderLeadAsset"]
-! 本文中の関連記事
-wired.jp##.RelatedListItem-gClwMZ:upward(2)
-wired.jp,wired.com##.grid-layout__aside
-wired.jp,wired.com##footer
-! ヘッダー
-wired.com###link-banner
-wired.com##button#bookmark
-! 課金オファー
-wired.com##p:has(a[href^="https://www.wired.com/v2/offers/"])
-! アフェリンク表示
-wired.com##.blockquote-embed.paywall.gzzTVu.BlockquoteEmbedWrapper-sc-SdiGL
-! You Might Also Like
-wired.com##.linkstack.kgtXXB.LinkStackWrapper-NFLYw
-! comments：動的に作られるので、hasやupwardが効かない
-wired.com##button[aria-controls="tabPane-COMMENTS"]
-!wired.com##section[aria-label="Authentication"]:upward(1)
-!wired.com##div:has(section:has(span:has-text(Join the conversation)))
-wired.com##section[aria-label="Authentication"]
-wired.com##section[data-testid="community-guidelines"]
-wired.com##section[aria-label="Post a Comment"]
-! カテゴリー
-wired.com##div[data-testid="TagCloudWrapper"]
-! READ MORE
-wired.com##.grid--item.kHPPIF.GridItem-buujkM
-! WIRED COUPONS
-wired.com##.eCKeZn.CouponGrid-bStwlh
-
-
-
-
-
-!---------------------------------------------------------------------------!
-!-------------- Various end-------------------------------------------------!
-!---------------------------------------------------------------------------!
-
-!---------------------------------------------------------------------------!
-!-------------- Adult ------------------------------------------------------!
-!---------------------------------------------------------------------------!
-! 2024-05-28
-
-! bakufu.jp
-bakufu.jp##td > font > b:has-text(当サイトはアフィリエイト広告を利用しています):upward(2)
-bakufu.jp##.banner
-
-
-!---------------------------------------------------------------------------!
-!-------------- Adult end --------------------------------------------------!
-!---------------------------------------------------------------------------!
-
-!---------------------------------------------------------------------------!
 !-------------- Twitter ----------------------------------------------------!
 !---------------------------------------------------------------------------!
 
@@ -587,10 +104,7 @@ thetv.jp##div.sidebarcontents:nth-of-type(8)
 thetv.jp##div.sidebarcontents:nth-of-type(7)
 thetv.jp##div.sidebarcontents:nth-of-type(1)
 
-! 2023-07-10 https://www.animatetimes.com
-www.animatetimes.com##div.visible-lg.visible-md.c-banner-aside > div > .inject-link
-www.animatetimes.com##div.l-box:nth-of-type(3)
-www.animatetimes.com##div.l-box:nth-of-type(6)
+
 
 ! 2023-09-04 https://kuruma-news.jp
 kuruma-news.jp###side-fix
@@ -665,21 +179,7 @@ webnewtype.com##.c-layout-side
 webnewtype.com##.g-header
 webnewtype.com###footer
 
-! 2023-11-05 https://daily-gadget.net
-daily-gadget.net##.widget_media_image.widget-over-article
-daily-gadget.net###container > header
-daily-gadget.net###navi
-daily-gadget.net##.main-footer
-daily-gadget.net##.comment-respond
-daily-gadget.net###sidebar
-daily-gadget.net##.yarpp-template-thumbnails.yarpp-related-website.yarpp-related.yarpp
 
-! 2023-11-05 https://president.jp
-president.jp##.article-head
-president.jp##.header
-president.jp##.l-sub
-president.jp##.l-footer
-president.jp##.family
 
 ! 2023-11-06 https://gadgets.evolves.biz
 gadgets.evolves.biz###headbox
@@ -692,18 +192,7 @@ gadgets.evolves.biz##.point-in
 gadgets.evolves.biz##aside
 gadgets.evolves.biz##.st-sns-singular.sns
 
-! 2023-11-14 https://s-max.jp
-s-max.jp##.blog-title-outer
-s-max.jp###extra > .column-inner
-s-max.jp###sub
-s-max.jp###article-options
-s-max.jp###ldblog_related_articles_ceaf6e2c
-s-max.jp##.article-post
-s-max.jp##.footer-outer
-s-max.jp##.pager-inner
 
-! 2023-11-14 https://www.nicovideo.jp
-www.nicovideo.jp##.RightSideContainer
 
 ! 2023-11-27 https://www.sankei.com
 www.sankei.com##.grid__col--xs-12.grid__col--sm-12.grid__col--md-12.grid__col--lg-12.layout-footer-spacing.grid__column
@@ -729,14 +218,7 @@ nazology.net##.sns-links
 nazology.net##.article-list--pickup.article-list
 nazology.net##.article-list--special.article-list
 
-! 2023-11-30 https://japan.cnet.com
-japan.cnet.com###header-wrap
-japan.cnet.com###column-content-block > .nocontent
-japan.cnet.com###footer-wrap
-japan.cnet.com###logly-lift-3750361
-japan.cnet.com###leaf_related_wp_origin
-japan.cnet.com##div.nocontent.inner-bg:nth-of-type(14)
-japan.cnet.com##.nocontent.inner-zdnet.inner-bg
+
 
 ! 2023-11-30 https://gadget.phileweb.com
 gadget.phileweb.com##.fixed.l--header
@@ -778,17 +260,6 @@ codezine.jp##.col-md-4.l-sidebar
 ! 2024-01-18 https://nyaa.land
 nyaa.land##body > div:nth-of-type(1)
 
-! 2024-01-22 https://president.jp
-president.jp##.article-banner
-president.jp##.article-magazine
-
-! 2024-01-24 https://trafficnews.jp
-trafficnews.jp###side-column
-trafficnews.jp##header
-trafficnews.jp##footer
-trafficnews.jp##.article-middle-link
-trafficnews.jp###comments
-
 ! 2024-01-24 https://courrier.jp
 courrier.jp##header
 courrier.jp##.header_submenu.header_bg_blue
@@ -813,13 +284,7 @@ kissmanga.123proxy.me###cookieConsentUR99472
 ! 2024-02-01 https://codezine.jp
 codezine.jp##.l-footer
 
-! 2024-02-01 https://biz-journal.jp
-biz-journal.jp###header
-biz-journal.jp###nav
-biz-journal.jp###aside
-biz-journal.jp###topPickup
-biz-journal.jp###relatedCatchText
-biz-journal.jp###footer
+
 
 ! 2024-02-01 https://crea.bunshun.jp
 crea.bunshun.jp###header
@@ -832,13 +297,7 @@ crea.bunshun.jp##.module-comic-essay
 crea.bunshun.jp##.html.module-magazine-and-book
 crea.bunshun.jp###footer
 
-! 2024-02-04 https://president.jp
-president.jp##.common-header
-president.jp##.column-side
-president.jp##.common-footer-front
-president.jp##.common-regist
-president.jp##.common-footer
-president.jp##.column-main > .c-section
+
 
 ! 2024-02-09 https://active.nikkeibp.co.jp
 active.nikkeibp.co.jp##.globalNavi
@@ -919,15 +378,6 @@ www.gourmetbiz.net##.adbox
 www.gourmetbiz.net##.clearfix.p-navi
 www.gourmetbiz.net##footer
 
-! 2024-03-16 https://www.newsweekjapan.jp
-www.newsweekjapan.jp###head
-www.newsweekjapan.jp###contentHead
-www.newsweekjapan.jp###sidePanel
-www.newsweekjapan.jp###btm-contents
-www.newsweekjapan.jp###foot
-
-! 2024-03-17 https://biz-journal.jp
-biz-journal.jp##.authorinfo
 
 ! 2024-03-17 https://wirelesswire.jp
 wirelesswire.jp##.responsive.Header
@@ -983,9 +433,6 @@ www.sankei.com##.fixed.flex.width-full.global-nav-container
 www.sankei.com##.justify-center.flex.grid__col--xs-12.grid__col--sm-12.grid__col--md-12.grid__col--lg-12.layout-header-spacing.grid_nowrap.grid__column.grid
 www.sankei.com##.sidebar-items
 
-! 2024-04-21 https://orefolder.jp
-orefolder.jp##.adad
-orefolder.jp##.snsbtn
 
 ! 2024-04-23 https://dl-raw.se
 dl-raw.se##.gridlane-box.comments-area
@@ -1007,3 +454,13 @@ ncode.syosetu.com##.pageTop--up.pageTop
 ! 2024-05-05 https://www3.nhk.or.jp
 !www3.nhk.or.jp##.c-header--post.c-header
 
+! 2024/07/01 https://itest.5ch.net
+itest.5ch.net###floatingBottomAdsMain
+
+! 2024/10/13 animatetimes.com
+animatetimes.com##.l-content-aside
+
+amazon.co.jp##a:has(img[alt^="ボクシング"])
+
+! 2024/10/15 https://ch.nicovideo.jp
+!ch.nicovideo.jp##li > div > a > img:if(:upward(li.item) > .item_right > h6 > a:has-text(/妻、小学生になる。|監禁区域レベルX|ダンジョンに出会いを求めるのは間違っているだろうか|女神降臨|ハイガクラ|最凶の支援職/))

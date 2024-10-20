@@ -6,13 +6,6 @@ gamewith.jp##.to-btn--nps
 realsound.jp##.fixed-share
 
 
-! 2023-08-12 https://s-max.jp
-s-max.jp###sub
-s-max.jp###extra
-s-max.jp##.pager-inner
-s-max.jp##.blog-title-outer
-s-max.jp##.social_bookmarking
-s-max.jp###bottom-social
 
 
 ! 2023-08-28 https://fpsjp.net
@@ -239,15 +232,7 @@ gadgets.evolves.biz##.point-in
 gadgets.evolves.biz##aside
 gadgets.evolves.biz##.st-sns-singular.sns
 
-! 2023-11-14 https://s-max.jp
-s-max.jp##.blog-title-outer
-s-max.jp###extra > .column-inner
-s-max.jp###sub
-s-max.jp###article-options
-s-max.jp###ldblog_related_articles_ceaf6e2c
-s-max.jp##.article-post
-s-max.jp##.footer-outer
-s-max.jp##.pager-inner
+
 
 ! 2023-11-14 https://www.nicovideo.jp
 www.nicovideo.jp##.RightSideContainer
@@ -519,19 +504,3 @@ ncode.syosetu.com##.pageTop--up.pageTop
 
 ! 2024/07/01 https://itest.5ch.net
 itest.5ch.net###floatingBottomAdsMain
-
-
-! 2023-11-05 https://daily-gadget.net
-daily-gadget.net###header
-daily-gadget.net###navi
-daily-gadget.net###sidebar
-! 本文 youtube, twitterバナー
-daily-gadget.net##.widget_media_image.widget-over-article
-daily-gadget.net##.comment-respond
-daily-gadget.net##.main-footer
-! youtube
-daily-gadget.net##h3:has(strong:has-text("デイリーガジェットYouTubeチャンネル！"))
-daily-gadget.net##p:has-text("デイリーガジェットでは、UMPC（超小型PC）、スマホ、タブレット、レトロPCをはじめとして、商品のレビューやインタビューの動画を、YouTubeに”ほぼ”毎日公開しています。")
-daily-gadget.net##p:has-text("デイリーガジェット動画部のVTuberである風林火山朱音とケンがゆるい感じにレポートしています。")
-daily-gadget.net##p:has(span:has(strong:has-text("ぜひ↓からチャンネル登録をお願いします！")))
-daily-gadget.net##p:has(a[href="https://www.youtube.com/channel/UCFjFjyDXUG9mDGHCxNZ5yuQ"])
