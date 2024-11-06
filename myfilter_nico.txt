@@ -1,7 +1,7 @@
 ! Title: My Filter for niconico
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20241003
+! Version: 20241106
 
 ! ----- 2024-08-05 サイバー攻撃復旧後 -----
 ! ----- 動画ページ -----
@@ -23,8 +23,8 @@ nicovideo.jp##div[data-nvpc-scope="watch-floating-panel"] span:has-text(/スキ�
 nicovideo.jp##.bg_layer\.background.p_base.h_watchActionbar\.height.box_content-box.items_center.justify_space-between.gap_x3.d_flex
 nicovideo.jp##.d_flex.gap_x3.jc_space-between.ai_center.bx-s_content-box.h_watchActionbar\.height.p_base.bg-c_layer\.background
 
-! おすすめの有料動画(dアニ以外)、プレミア限定動画
-nicovideo.jp##a[data-anchor-area="related_content,recommendation"]:has(span:has-text(/有料|限定/)):not(:has(p:has-text("dアニメストア ニコニコ支店")))
+! おすすめの有料動画(dアニ以外)、プレミア限定動画：AdGuardだと効かない
+!nicovideo.jp##a[data-anchor-area="related_content,recommendation"]:has(span:has-text(/有料|限定/)):not(:has(p:has-text("dアニメストア ニコニコ支店")))
 ! プレイリストの有料動画(dアニ以外)
 !   処理が重いので外した
 !nicovideo.jp##a[data-anchor-area="playlist"]:has(span:has-text("有料")):not(:has(p:has-text("dアニメストア ニコニコ支店")))
