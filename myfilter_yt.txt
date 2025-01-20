@@ -1,7 +1,7 @@
 ! Title: My Filter for YouTube
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20241212
+! Version: 20250120
 
 ! comment
 youtube.com###simple-box > .ytd-comments-header-renderer.style-scope
@@ -145,7 +145,7 @@ www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style
 !youtube.com##ytd-watch-next-secondary-results-renderer ytd-reel-shelf-renderer
 
 
-! ---------- Hidden Videos：Mix, Shorts, Word ----------
+! ---------- Hidden Videos：Mix, Shorts, Word, Member Only ----------
 ! ミックスリスト
 ! ホームのミックスリスト
 youtube.com##[page-subtype="home"] #video-title-link[title*="ミックス"][href$="start_radio=1"]:upward(ytd-rich-item-renderer)
@@ -184,6 +184,8 @@ youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-rendere
 ! 検索結果
 youtube.com##ytd-search ytd-video-renderer:has(ytd-channel-name:has-text(/不倫|浮気|交際/))
 
+! メンバー限定動画
+youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(div[aria-label="メンバー限定"])
 
 ! ---------- Misc ----------
 ! YouTubeのホーム広告のスペースを削除する方法
