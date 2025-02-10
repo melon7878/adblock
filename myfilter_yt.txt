@@ -67,6 +67,13 @@ youtube.com##[page-subtype="channels"] ytd-reel-shelf-renderer:upward(ytd-item-s
 youtube.com##[page-subtype="channels"] .badge-style-type-members-only:upward(ytd-item-section-renderer)
 
 
+! ---------- Playlist ----------
+! おすすめの動画
+!youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has(div#header:has(div#title:has-text(おすすめの動画)))
+! おすすめのプレイリスト
+youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has(span.ytd-shelf-renderer:has-text(おすすめのプレイリスト))
+
+
 ! ---------- Watch ----------
 ! ---------- Watch.Player ----------
 ! 前へ次へ
