@@ -193,6 +193,7 @@ youtube.com##ytd-search ytd-video-renderer:has(ytd-channel-name:has-text(/不倫
 
 ! メンバー限定動画
 youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(div[aria-label="メンバー限定"])
+youtube.com##[page-subtype="channels"] ytd-rich-item-renderer:has(div[aria-label="メンバー限定"])
 
 ! ---------- Misc ----------
 ! YouTubeのホーム広告のスペースを削除する方法
