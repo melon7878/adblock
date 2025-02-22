@@ -1,7 +1,7 @@
 ! Title: My Filter for YouTube
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20250210
+! Version: 20250222
 
 ! comment
 youtube.com###simple-box > .ytd-comments-header-renderer.style-scope
@@ -155,7 +155,7 @@ www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style
 ! ---------- Hidden Videos：Mix, Shorts, Word, Member Only ----------
 ! ミックスリスト
 ! ホームのミックスリスト
-youtube.com##[page-subtype="home"] #video-title-link[title*="ミックス"][href$="start_radio=1"]:upward(ytd-rich-item-renderer)
+youtube.com##[page-subtype="home"] h3[title*="ミックス"]:has(a[href$="start_radio=1"]):upward(ytd-rich-item-renderer)
 ! 動画右のミックスリスト
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-radio-renderer
 ! youtube musicのプレイリスト
