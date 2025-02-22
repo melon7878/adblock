@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20241020
+! Version: 20250222
 
 ! プライバシー・利用規約
 ##.grecaptcha-badge
@@ -296,3 +296,8 @@ s-max.jp###comment-form
 ! フッター
 s-max.jp##.footer-outer
 
+! chimolog.co
+! 広告表示
+chimolog.co##.fair_labeling
+! ブログ説明
+chimolog.co##.cf.subnav
