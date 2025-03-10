@@ -15,7 +15,7 @@ youtube.com##ytd-engagement-panel-section-list-renderer.style-scope.ytd-watch-fl
 ! 音声検索ボタン
 youtube.com###voice-search-button
 ! ヘッダー：作成ボタン
-youtube.com###end #buttons button[aria-label="作成"]:upward(ytd-button-renderer)
+youtube.com###end #buttons ytd-button-renderer:has(button[aria-label="作成"])
 ! /channel /watch.metadata 「メンバーになる」ボタン
 youtube.com###sponsor-button
 
