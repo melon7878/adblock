@@ -143,6 +143,8 @@ youtube.com##ytd-comment-renderer:has-text(/プライベートAV|AVガール|動
 youtube.com###comment:has-text(/不倫|ハフポスト/i):upward(ytd-comment-thread-renderer)
 
 ! ---------- Watch.Secondary ----------
+! chat コメント入力欄
+youtube.com##yt-live-chat-message-input-renderer
 ! chat 絵文字
 youtube.com###picker-buttons
 youtube.com###reaction-control-panel
