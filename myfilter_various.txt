@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20250222
+! Version: 20250310
 
 ! プライバシー・利用規約
 ##.grecaptcha-badge
@@ -222,6 +222,7 @@ president.jp##.article-head
 president.jp##.l-sub
 president.jp##.family
 president.jp##footer
+president.jp###pianoj_slidein
 
 ! newsweekjapan.jp
 newsweekjapan.jp###head
