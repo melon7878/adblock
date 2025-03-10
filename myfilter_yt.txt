@@ -3,8 +3,6 @@
 ! Homepage: https://github.com/melon7878/adblock
 ! Version: 20250310
 
-! comment
-youtube.com###simple-box > .ytd-comments-header-renderer.style-scope
 
 ! ---------- EX ----------
 ! [Tweak for YouTube] 不具合修正
@@ -136,6 +134,8 @@ youtube.com##ytd-metadata-row-container-renderer
 youtube.com##ytd-merch-shelf-renderer
 
 ! ---------- Watch.Comment ----------
+! comment入力欄
+youtube.com###simple-box > .ytd-comments-header-renderer.style-scope
 ! コメントをワード指定して非表示
 youtube.com##ytd-comment-renderer:has-text(/プライベートAV|AVガール|動画見たら1万|学校でいじめられてます/)
 ! 上のフィルタは非表示にしたコメントに返信があると「件の返信」だけ表示されたままになります。
