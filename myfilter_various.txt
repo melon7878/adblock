@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20250310
+! Version: 20250330
 
 ! プライバシー・利用規約
 ##.grecaptcha-badge
@@ -89,13 +89,13 @@ impress.co.jp##footer
 ! 未確認
 !impress.co.jp##.clear.fb-parts.hcenter.wp60.box-02
 
-! nichepcgamer.com
+! [pc/mob] nichepcgamer.com
+nichepcgamer.com###head-band-in
 nichepcgamer.com###head-in
-nichepcgamer.com##footer
-nichepcgamer.com###copyright
-! nichepcgamer.com###main > article > aside
 nichepcgamer.com###pnavi
 nichepcgamer.com###related-box
+nichepcgamer.com###footer
+nichepcgamer.com###copyright
 ! 人気記事
 nichepcgamer.com##.popular-posts.widget:upward(1)
 ! 新着記事
