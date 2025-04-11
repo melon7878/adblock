@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20250330
+! Version: 20250411
 
 ! プライバシー・利用規約
 ##.grecaptcha-badge
@@ -302,3 +302,9 @@ s-max.jp##.footer-outer
 chimolog.co##.fair_labeling
 ! ブログ説明
 chimolog.co##.cf.subnav
+
+! [pc/mob] phileweb.com
+phileweb.com##header:style(position: relative !important;)
+! AG - Mobile Ads 上書き
+phileweb.com#@#body.no-ad-bannerClass-body:style(padding-top: 100px !important;)
+phileweb.com##body.no-ad-bannerClass-body:style(padding-top: 0px !important;)
