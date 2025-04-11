@@ -69,7 +69,7 @@ gizmodo.jp##.l-footer
 gizmodo.jp##.p-post-survey
 gizmodo.jp##.p-post-survey-share
 
-! gigazine.net
+! [pc/mob] gigazine.net
 gigazine.net###header-social-button-box
 gigazine.net###latest
 gigazine.net###sub
@@ -81,7 +81,7 @@ gigazine.net##.rlcontents-s
 gigazine.net###next-prev
 gigazine.net##footer
 
-! impress.co.jp
+! [pc/mob] impress.co.jp
 impress.co.jp##header
 impress.co.jp###extra.nocontent
 impress.co.jp##.to-top-button
@@ -101,7 +101,7 @@ nichepcgamer.com##.popular-posts.widget:upward(1)
 ! 新着記事
 nichepcgamer.com###thk_recent_posts-2
 
-! smhn.info
+! [pc/mob] smhn.info
 smhn.info##header
 !smhn.info###global
 !smhn.info###breadcrumbs
@@ -251,7 +251,7 @@ dailyshincho.jp##.l-contents__aside
 dailyshincho.jp##.l-footer
 dailyshincho.jp##.footer_copy
 
-! orefolder.jp
+! [pc/mob] orefolder.jp
 ! ブルースカイボタン:sticky
 orefolder.jp##.snsbtn
 ! 広告掲載表示
