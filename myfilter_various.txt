@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20250411
+! Version: 20250411-2
 
 ! プライバシー・利用規約
 ##.grecaptcha-badge
@@ -164,7 +164,7 @@ wired.com##.grid--item.kHPPIF.GridItem-buujkM
 ! WIRED COUPONS
 wired.com##.eCKeZn.CouponGrid-bStwlh
 
-! biz-journal.jp
+! [pc/mob] biz-journal.jp
 biz-journal.jp###header
 biz-journal.jp###nav
 biz-journal.jp###aside
@@ -172,8 +172,9 @@ biz-journal.jp###topPickup
 biz-journal.jp###relatedCatchText
 biz-journal.jp###footer
 ! モバイル
-biz-journal.jp##header.global:style(margin-bottom: 0px !important)
+biz-journal.jp##header.global
 biz-journal.jp##nav.tab
+biz-journal.jp##div.share
 biz-journal.jp###footerSns
 biz-journal.jp###footerNav
 
