@@ -1,7 +1,7 @@
 ! Title: My Filter for YouTube
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20250421
+! Version: 20250430
 
 
 ! ---------- EX ----------
@@ -63,7 +63,7 @@ youtube.com##[page-subtype="channels"] ytd-recognition-shelf-renderer:upward(ytd
 ! ショート
 youtube.com##[page-subtype="channels"] ytd-reel-shelf-renderer:upward(ytd-item-section-renderer:not([use-height-hack]))
 ! メンバー限定の動画
-youtube.com##[page-subtype="channels"] .badge-style-type-members-only:upward(ytd-item-section-renderer)
+youtube.com##[page-subtype="channels"] .badge-style-type-members-only:upward(ytd-rich-item-renderer)
 
 
 ! ---------- Playlist ----------
