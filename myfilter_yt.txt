@@ -1,7 +1,7 @@
 ! Title: My Filter for YouTube
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20250430
+! Version: 20250702
 
 
 ! ---------- EX ----------
@@ -177,7 +177,7 @@ youtube.com##[page-subtype="subscriptions"] [href^="/shorts/"]:upward(ytd-grid-v
 ! 見たくない動画をワード指定して非表示．
 !   「|Youtube/i))」このように/の後に「i」をつけると英語の大文字小文字を区別しなくなります。
 ! ホーム
-youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(#video-title-link:has-text(/不倫|浮気|交際|Synthesizer V|AI Vocal/))
+youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(#video-title-link:has-text(/不倫|浮気|交際|Synthesizer V|SynthV|AI Vocal/))
 ! 登録チャンネル
 youtube.com##[page-subtype="subscriptions"] ytd-grid-video-renderer:has(#video-title:has-text(/不倫|浮気|交際/))
 ! 動画右
