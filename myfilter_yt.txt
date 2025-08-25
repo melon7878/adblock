@@ -1,7 +1,7 @@
 ! Title: My Filter for YouTube
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20250702
+! Version: 20250825
 
 
 ! ---------- EX ----------
@@ -23,9 +23,7 @@ youtube.com###sponsor-button
 !youtube.com##ytd-thumbnail-overlay-toggle-button-renderer[aria-label="キューに追加"]
 
 ! 動画タイトル右︙の「キューに追加」「報告」「オフライン」を非表示
-! youtube.com##ytd-menu-service-item-renderer:has-text(/キューに追加|報告/)
-youtube.com##ytd-menu-service-item-renderer:has-text(/報告/)
-youtube.com##ytd-menu-service-item-download-renderer:has-text(オフライン)
+youtube.com##yt-list-item-view-model:has-text(/オフライン|報告/)
 
 ! ---------- All.Sidebar ----------
 ! sidebar 「ショート」欄を非表示
