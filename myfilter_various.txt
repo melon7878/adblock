@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20250411-2
+! Version: 20250905
 
 ! プライバシー・利用規約
 ##.grecaptcha-badge
@@ -309,3 +309,23 @@ phileweb.com##header:style(position: relative !important;)
 ! AG - Mobile Ads 上書き
 phileweb.com#@#body.no-ad-bannerClass-body:style(padding-top: 100px !important;)
 phileweb.com##body.no-ad-bannerClass-body:style(padding-top: 0px !important;)
+
+! [pc/mob] jetstream.blog
+! バナー
+jetstream.blog###pwa-install-banner
+! header
+jetstream.blog##header.wp-block-template-part
+! 検索バー
+jetstream.blog##.wp-container-3:style(position: static !important;)
+! サムネ
+jetstream.blog##figure.wp-block-post-featured-image
+! 「この記事をシェア」
+jetstream.blog##div.wp-block-group:has(h2.wp-block-heading:has-text(/この記事をシェア/))
+! コメントフォーム
+jetstream.blog###respond
+! 「Jetstream をフォロー」
+jetstream.blog##h3:has-text(/Jetstream をフォロー/):upward(div.wp-block-group)
+! フッター：カレンダーとフッターナビゲーション
+jetstream.blog##footer div.wp-block-columns
+! フッター：ホームボタン、広告表示
+jetstream.blog##footer figure.wp-block-image:has(a[href="https://jetstream.press/"]):upward(div.wp-block-group)
