@@ -1,7 +1,7 @@
 ! Title: My Filter for YouTube
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20250825
+! Version: 20251019
 
 
 ! ---------- EX ----------
@@ -93,20 +93,12 @@ youtube.com##.ytp-fullerscreen-edu-button
 youtube.com##.ytp-ce-element
 
 ! ---------- Watch.Metadata ----------
-! クリップ、Thanks、オフラインを非表示
-!youtube.com##ytd-button-renderer:has([aria-label="クリップ"])
-!youtube.com##ytd-button-renderer:has([aria-label="Thanks"])
-! 2023-12-13
-!youtube.com##.yt-spec-button-view-model:has-text(クリップ)
-!youtube.com##.yt-spec-button-view-model:has-text(Thanks)
-!youtube.com##button:has-text(クリップ)
-!youtube.com##button:has-text(Thanks)
-!youtube.com##.yt-spec-button-shape-next:has-text(クリップ)
-!youtube.com##.yt-spec-button-shape-next:has-text(Thanks)
-! 2024-02-02
-youtube.com##yt-button-view-model:has(button[aria-label="クリップ"])
-youtube.com##yt-button-view-model:has(button[aria-label="Thanks"])
+! クリップ、Thanks、オフライン、報告を非表示
+! - ボタン
 youtube.com##ytd-download-button-renderer
+youtube.com##yt-button-view-model:has-text(/クリップ|Thanks|報告/)
+! - フライアウトメニュー
+youtube.com##tp-yt-paper-item:has-text(/オフライン|クリップ|Thanks|報告/)
 
 ! Youtube新UIを改善
 ! タイトルのフォントサイズを小さく
