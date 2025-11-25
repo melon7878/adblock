@@ -1,10 +1,22 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20250905
+! Version: 20251125-01
+
+
+! ----- temp -----
+
+
+! ----- general -----
 
 ! プライバシー・利用規約
 ##.grecaptcha-badge
+
+
+! ----- not done Airtable -----
+
+
+! ----- done Airtable -----
 
 ! bloomberg.co.jp
 bloomberg.co.jp###bb-that
