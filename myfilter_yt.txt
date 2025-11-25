@@ -1,7 +1,7 @@
 ! Title: My Filter for YouTube
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20251125
+! Version: 20251125-02
 
 
 ! ---------- EX ----------
@@ -164,13 +164,13 @@ youtube.com##[page-subtype="subscriptions"] [href^="/shorts/"]:upward(ytd-grid-v
 ! 見たくない動画をワード指定して非表示．
 !   「|Youtube/i))」このように/の後に「i」をつけると英語の大文字小文字を区別しなくなります。
 ! ホーム
-youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(#video-title-link:has-text(/不倫|浮気|交際|Synthesizer V|SynthV|AI Vocal/))
+youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(#video-title-link:has-text(/不倫|浮気|交際|Synthesizer V|SynthV|AI Vocal|ボカロカバー/i))
 ! 登録チャンネル
-youtube.com##[page-subtype="subscriptions"] ytd-grid-video-renderer:has(#video-title:has-text(/不倫|浮気|交際/))
+youtube.com##[page-subtype="subscriptions"] ytd-grid-video-renderer:has(#video-title:has-text(/不倫|浮気|交際|Synthesizer V|SynthV|AI Vocal|ボカロカバー/i))
 ! 動画右
-youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(#video-title:has-text(/不倫|浮気|交際/))
+youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(#video-title:has-text(/不倫|浮気|交際|Synthesizer V|SynthV|AI Vocal|ボカロカバー/i))
 ! 検索結果
-youtube.com##ytd-search ytd-video-renderer:has(#video-title:has-text(/不倫|浮気|交際/))
+youtube.com##ytd-search ytd-video-renderer:has(#video-title:has-text(/不倫|浮気|交際|Synthesizer V|SynthV|AI Vocal|ボカロカバー/i))
 ! チャンネル名で動画を非表示
 ! ホーム
 youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(ytd-channel-name:has-text(/不倫|浮気|交際/))
