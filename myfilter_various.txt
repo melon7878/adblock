@@ -1,10 +1,12 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20251125-02
+! Version: 20251125-03
 
 
 ! ----- temp -----
+! Qiita
+qiita.com##div[data-testid="popup-qiita-conference-2025"]
 
 
 ! ----- general -----
