@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20251125-03
+! Version: 20251218
 
 
 ! ----- temp -----
@@ -19,6 +19,11 @@ qiita.com##div[data-testid="popup-qiita-conference-2025"]
 ! 小説家になろう
 ncode.syosetu.com###pageTop
 
+! Amazon: EasyListのバグ修正
+!   カートに商品が入っているとき、ヘッダーの表示・非表示が遅れる
+amazon.*#@#div[id^="sims-simsContainer_feature_div_"]:has(.sp_info_link)
+amazon.*#@#div[id^="sp_detail"]
+amazon.*#@#div[cel_widget_id*="desktop-dp-"]
 
 ! ----- done Airtable -----
 
