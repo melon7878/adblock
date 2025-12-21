@@ -1,7 +1,7 @@
 ! Title: My Filter for YouTube
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20251126
+! Version: 20251221
 
 
 ! ---------- EX ----------
@@ -170,16 +170,16 @@ youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(#video-title-link:
 ! 登録チャンネル
 youtube.com##[page-subtype="subscriptions"] ytd-grid-video-renderer:has(#video-title:has-text(/不倫|浮気|交際|Synthesizer V|SynthV|AI Vocal|ボカロカバー/i))
 ! 動画右
-youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(#video-title:has-text(/不倫|浮気|交際|Synthesizer V|SynthV|AI Vocal|ボカロカバー/i))
+youtube.com##ytd-watch-next-secondary-results-renderer yt-lockup-view-model:has-text(/不倫|浮気|交際|Synthesizer V|SynthV|AI Vocal|ボカロカバー/i)
 ! 検索結果
 youtube.com##ytd-search ytd-video-renderer:has(#video-title:has-text(/不倫|浮気|交際|Synthesizer V|SynthV|AI Vocal|ボカロカバー/i))
 ! チャンネル名で動画を非表示
 ! ホーム
-youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(ytd-channel-name:has-text(/不倫|浮気|交際/))
+youtube.com##[page-subtype="home"] yt-lockup-view-model:has(yt-content-metadata-view-model:has-text(/不倫|浮気|交際/))
 ! 登録チャンネル
 youtube.com##[page-subtype="subscriptions"] ytd-grid-video-renderer:has(ytd-channel-name:has-text(/不倫|浮気|交際/))
 ! 動画右
-youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(ytd-channel-name:has-text(/不倫|浮気|交際/))
+youtube.com##ytd-watch-next-secondary-results-renderer yt-lockup-view-model:has(yt-content-metadata-view-model:has-text(/不倫|浮気|交際/))
 ! 検索結果
 youtube.com##ytd-search ytd-video-renderer:has(ytd-channel-name:has-text(/不倫|浮気|交際/))
 
