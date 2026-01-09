@@ -1,7 +1,7 @@
 ! Title: My Filter for YouTube
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20251221
+! Version: 20260109
 
 
 ! ---------- EX ----------
@@ -184,10 +184,10 @@ youtube.com##ytd-watch-next-secondary-results-renderer yt-lockup-view-model:has(
 youtube.com##ytd-search ytd-video-renderer:has(ytd-channel-name:has-text(/不倫|浮気|交際/))
 
 ! メンバー限定動画
-youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has([aria-label="メンバー限定"])
-youtube.com##[page-subtype="channels"] ytd-rich-item-renderer:has([aria-label="メンバー限定"])
+youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(.yt-badge-shape__text:has-text(/メンバー限定/))
+youtube.com##[page-subtype="channels"] ytd-rich-item-renderer:has(.yt-badge-shape__text:has-text(/メンバー限定/))
 ! 関連動画のメンバー限定
-youtube.com##yt-lockup-view-model:has(.yt-badge-shape__text:has-text(/メンバー限定/))
+youtube.com##ytd-watch-next-secondary-results-renderer yt-lockup-view-model:has(.yt-badge-shape__text:has-text(/メンバー限定/))
 
 ! 視聴回数が2桁以下のビデオ
 ! - 3桁以下にしたい場合は\d{1,3}
