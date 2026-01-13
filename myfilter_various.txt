@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20260113-02
+! Version: 20260113-03
 
 
 ! ----- temp -----
@@ -103,10 +103,21 @@ gigazine.net###next-prev
 gigazine.net##footer
 
 ! [pc/mob] impress.co.jp
-impress.co.jp##header
-impress.co.jp###extra.nocontent
 impress.co.jp##.to-top-button
-impress.co.jp##footer
+impress.co.jp##header
+! サイド
+!impress.co.jp###extra.nocontent
+! [pc] 窓の杜 をフォローする
+impress.co.jp##.ad.right > .social
+! [mob] おすすめ記事
+impress.co.jp##.recursive.extension > .recommend.topics
+! [mob] 窓の杜 をフォローする
+impress.co.jp##.extension.recursive > .social
+! フッター
+!impress.co.jp##footer
+impress.co.jp###group-sites
+impress.co.jp##footer > ul.nav
+impress.co.jp##footer > div.rights
 ! 未確認
 !impress.co.jp##.clear.fb-parts.hcenter.wp60.box-02
 
