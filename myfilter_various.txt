@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20260113-03
+! Version: 20260116
 
 
 ! ----- temp -----
@@ -75,6 +75,8 @@ gizmodo.jp#@#.araklet
 gizmodo.jp###globalNav
 ! ヘッダー：モバイル：ヘッダー自体は表示。追従を消す
 gizmodo.jp##.h-body-header.is-fixed
+! 広告枠残り
+gizmodo.jp###sp_giz_inarticle1
 ! 右サイド
 gizmodo.jp##.l-generalContent-secondary
 ! LATEST NEWS：PC
