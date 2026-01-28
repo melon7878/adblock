@@ -1,7 +1,7 @@
 ! Title: My Filter for YouTube
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20260123-02
+! Version: 20260128
 
 
 ! ---------- EX ----------
@@ -141,8 +141,8 @@ youtube.com###reaction-control-panel
 !youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
 ! /watch 関連動画のショート枠
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-reel-shelf-renderer
-! /watch 関連動画の途中で挟まってるやつ
-www.youtube.com###content-section
+! /watch 関連動画の途中で挟まってるやつ !2026-01-28チャンネル検索ができなくなるので除外
+!www.youtube.com###content-section
 
 ! ---------- Hidden Videos：Mix, Shorts, Word, Member Only ----------
 ! ミックスリスト
