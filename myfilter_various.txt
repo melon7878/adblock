@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20260116
+! Version: 20260131
 
 
 ! ----- temp -----
@@ -365,5 +365,7 @@ jetstream.blog##footer div.wp-block-columns
 !jetstream.blog##footer figure.wp-block-image:has(a[href="https://jetstream.press/"]):upward(div.wp-block-group)
 
 ! [pc/mob] HelenTech
+! 広告掲載表示
+helentech.jp##.c-prNotation
 ! この記事をシェア、HelenTech の最新情報をフォロー
 helentech.jp###after_article > .w-cta
