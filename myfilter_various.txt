@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20260208-01
+! Version: 20260227
 
 
 ! ----- temp -----
@@ -373,3 +373,28 @@ helentech.jp###after_article > .w-cta
 ! [pc/mob] 読売新聞
 ! 保存して後で読む（記事冒頭）
 yomiuri.co.jp##.p-article-action-btn-2020__style-2026.p-article-action-btn-2020__article-head
+
+! [pc/mob] XenoSpectrum
+! header: static
+xenospectrum.com###mobile-header:style(position: static !important;)
+! 記事: 空白
+xenospectrum.com##.xeno-top-ads-sticky-mobile
+xenospectrum.com##.xeno-top-ads-sticky
+! 記事サムネ mobのみ
+xenospectrum.com##:has(#mobile-header:not(:matches-css(display: none))) .gb-media-ebbaefeb
+! フォローバナー
+xenospectrum.com##.gb-element-c5c3024d
+! コメント入力
+xenospectrum.com###respond
+! スポンサーリンク
+xenospectrum.com##.sticky-element-ad
+! トップ、カテゴリ: 空白
+xenospectrum.com##.gb-element-c0bc2f33
+xenospectrum.com##.gb-element-d6603cc3
+xenospectrum.com##.gb-element-bbfc8f9c
+! サイドバー: 記事サムネ
+xenospectrum.com##li .tptn_thumb
+! トップ: カテゴリ記事サムネ
+xenospectrum.com##.gb-element-b6d72239 .pmloaded.entered.perfmatters-lazy
+! トップ: コンタクト
+xenospectrum.com##.gb-element-9fe3b45c
