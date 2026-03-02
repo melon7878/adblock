@@ -1,7 +1,7 @@
 ! Title: My Filter for YouTube
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20260220
+! Version: 20260302
 
 
 ! ---------- EX ----------
@@ -29,7 +29,8 @@ youtube.com##yt-list-item-view-model:has-text(/オフライン|報告/)
 ! sidebar 「ショート」欄を非表示
 youtube.com##+js(json-prune, items.0.guideSectionRenderer.items.1.guideEntryRenderer)
 youtube.com##ytd-guide-entry-renderer > [title="ショート"]
-
+! オフライン
+www.youtube.com###downloads-entry
 ! sidebar 探索と他のサービス
 !   どちらか一方だけ非表示にするの場合は/と|を消す 例：has-text(YouTube の他のサービス))
 youtube.com##ytd-guide-section-renderer:has(h3:has-text(/YouTube の他のサービス|探索/))
