@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20260227
+! Version: 20260719
 
 
 ! ----- temp -----
@@ -107,6 +107,10 @@ gigazine.net##footer
 ! [pc/mob] impress.co.jp
 impress.co.jp##.to-top-button
 impress.co.jp##header
+! コーナーロゴ
+impress.co.jp##.hdg-image-01
+! 著者画像
+impress.co.jp##.author-image
 ! サイド
 !impress.co.jp###extra.nocontent
 ! [pc] 窓の杜 をフォローする
