@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20260719-02
+! Version: 20260725
 
 
 ! ----- temp -----
@@ -71,26 +71,12 @@ cnn.co.jp##body:watch-attr(class):remove-attr(class)
 ! gizmodo.jp
 ! 例外：EC購入枠 @ AdGuard JP
 gizmodo.jp#@#.araklet
-! ヘッダー：PC
-gizmodo.jp###globalNav
-! ヘッダー：モバイル：ヘッダー自体は表示。追従を消す
-gizmodo.jp##.h-body-header.is-fixed
-! 広告枠残り
-gizmodo.jp###sp_giz_inarticle1
-! 右サイド
-gizmodo.jp##.l-generalContent-secondary
-! LATEST NEWS：PC
-gizmodo.jp##div.p-archive:has(h2.p-archive-heading:has-text("LATEST NEWS")):upward(div.l-generalContent)
-! LATEST NEWS：モバイル
-gizmodo.jp##section.p-headCard1Col1:has(h2.p-headCard1Col1-title:has-text("LATEST NEWS"))
-! 広告枠 @ AdGuardJP：##.ad-banner
-!gizmodo.jp##div.l-heroContent
-! フッター
-gizmodo.jp##.l-videoArea
-gizmodo.jp##.l-footer
-! 投票
-gizmodo.jp##.p-post-survey
-gizmodo.jp##.p-post-survey-share
+! ヘッダー：追従を消す
+gizmodo.jp###globalNav:style(position: absolute !important;)
+! シェアボタン枠
+gizmodo.jp##.shareButtons_container__j8PZI
+! 記事と関係ないPR商品
+gizmodo.jp##.article-amazon-product
 
 ! [pc/mob] gigazine.net
 gigazine.net###header-social-button-box
