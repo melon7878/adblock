@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20260725
+! Version: 20260808
 
 
 ! ----- temp -----
@@ -79,6 +79,8 @@ gizmodo.jp##.shareButtons_container__j8PZI
 gizmodo.jp##.article-amazon-product
 
 ! [pc/mob] gigazine.net
+! 画像の自動縦縮小を止める for Brave(iOS)
+gigazine.net##.cntimage img:style(max-height: none !important;)
 gigazine.net###header-social-button-box
 gigazine.net###latest
 gigazine.net###sub
