@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20260808
+! Version: 20260808-02
 
 
 ! ----- temp -----
@@ -40,6 +40,8 @@ forbesjapan.com##.cont-right
 forbesjapan.com##.follow-btns
 forbesjapan.com##.article-detail-follow.follow_us
 forbesjapan.com##.article-detail-list
+! 雑誌バナー
+forbesjapan.com##.section-article-detail_magazine
 forbesjapan.com##.footer
 ||forbesjapan.com/asset/frontend/dist/functions-standard-article-full.bundle.js^$script,inline-script,important
 ! 未確認
