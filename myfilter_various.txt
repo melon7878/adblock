@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20260815-01
+! Version: 20260815-02
 
 
 ! ----- temp -----
@@ -407,3 +407,10 @@ xenospectrum.com##.gb-element-9fe3b45c
 ! [pc/mob] トウシル
 ! 「ホーム」「ページトップ」ボタン
 media.rakuten-sec.net###page-top
+
+! [pc/mob] 価格.comマガジン
+! [pc]
+kakakumag.com###totop
+! [mob]
+kakakumag.com###pageTop
+kakakumag.com##.header:style(position: absolute !important;)
