@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20260815-02
+! Version: 20260815-03
 
 
 ! ----- temp -----
@@ -414,3 +414,10 @@ kakakumag.com###totop
 ! [mob]
 kakakumag.com###pageTop
 kakakumag.com##.header:style(position: absolute !important;)
+
+! [pc/mob] GAZLOG
+gazlog.jp###pagetop
+! [pc]
+gazlog.jp###fix_header
+! [mob]
+gazlog.jp###header:style(position: static !important;)
