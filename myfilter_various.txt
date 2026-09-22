@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20260815-03
+! Version: 20260922-01
 
 
 ! ----- temp -----
@@ -359,7 +359,7 @@ jetstream.blog##.jetstream-ad-lazy-placeholder
 ! AI要約ポップアップの空白
 jetstream.blog##.gemini-custom-content-top.gemini-custom-content-wrapper
 ! 「この記事をシェア」
-jetstream.blog##div.wp-block-group:has(h2.wp-block-heading:has-text(/この記事をシェア/))
+jetstream.blog##h2.wp-block-heading:has-text(/この記事をシェア/):upward(div.wp-block-group)
 ! コメントフォーム
 jetstream.blog###respond
 ! 「Jetstream をフォロー」
