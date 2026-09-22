@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20260922-02
+! Version: 20260922-03
 
 
 ! ----- temp -----
@@ -106,8 +106,14 @@ impress.co.jp##header
 impress.co.jp##.hdg-image-01
 ! 著者画像
 impress.co.jp##.author-image
+! Google優先ソースに追加
+forest.watch.impress.co.jp##.google-preferred-source-container
+! Twitterフォロー
+forest.watch.impress.co.jp##.fb-parts
 ! サイド
 !impress.co.jp###extra.nocontent
+! サイド：Special Site
+forest.watch.impress.co.jp##.topics.list.special
 ! [pc] 窓の杜 をフォローする
 impress.co.jp##.ad.right > .social
 ! [mob] おすすめ記事
@@ -119,8 +125,6 @@ impress.co.jp##.extension.recursive > .social
 impress.co.jp###group-sites
 impress.co.jp##footer > ul.nav
 impress.co.jp##footer > div.rights
-! 未確認
-!impress.co.jp##.clear.fb-parts.hcenter.wp60.box-02
 
 ! [pc/mob] nichepcgamer.com
 nichepcgamer.com###head-band-in
