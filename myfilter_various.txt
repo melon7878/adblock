@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20260922-04
+! Version: 20260923-01
 
 
 ! ----- temp -----
@@ -382,8 +382,12 @@ helentech.jp##a[href^="https://www.google.com/preferences/source?q="]:upward(div
 helentech.jp###after_article > .w-cta
 
 ! [pc/mob] 読売新聞
+! ヘッダー
+yomiuri.co.jp##.p-header:style(position: relative !important;)
 ! 保存して後で読む（記事冒頭）
-yomiuri.co.jp##.p-article-action-btn-2020__style-2026.p-article-action-btn-2020__article-head
+yomiuri.co.jp##.p-article-action-btn-2020__article-head
+! Google優先ソースに追加
+yomiuri.co.jp##.p-article-google-news
 
 ! [pc/mob] XenoSpectrum
 ! header: static
