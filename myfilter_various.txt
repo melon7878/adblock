@@ -1,7 +1,7 @@
 ! Title: My Filter Various
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/melon7878/adblock
-! Version: 20261018-01
+! Version: 20261018-02
 
 
 ! ----- temp -----
@@ -33,19 +33,26 @@ bloomberg.co.jp##.touts
 bloomberg.co.jp##.bb-global-footer
 ||assets.bwbx.io/s3/javelin/public/javelin/js/transporter/transporter-51fabfd75c.js^$script,inline-script,important
 
-! forbesjapan.com
+! Forbes JAPAN
 forbesjapan.com##header
-forbesjapan.com##.cont-right
+! サイド
+!forbesjapan.com##.cont-right
 ! 「著者フォロー」「記事を保存」ボタン
 forbesjapan.com##.follow-btns
-forbesjapan.com##.article-detail-follow.follow_us
-forbesjapan.com##.article-detail-list
+! 共有
+forbesjapan.com##.sp-none.sns-icons
+! Google優先ソースに追加：2つ
+forbesjapan.com##.preferred-sources-cta
 ! 雑誌バナー
 forbesjapan.com##.section-article-detail_magazine
+! SNSフォロー
+forbesjapan.com##.article-detail-follow.follow_us
+! メルマガ登録バナー
+forbesjapan.com##.no__login.article-detail-register
+! BrandVoice
+forbesjapan.com##.article-detail-list
 forbesjapan.com##.footer
 ||forbesjapan.com/asset/frontend/dist/functions-standard-article-full.bundle.js^$script,inline-script,important
-! 未確認
-!forbesjapan.com##[href="/30under30"]
 
 ! cnn.co.jp
 cnn.co.jp###nav-global
